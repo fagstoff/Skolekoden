@@ -2,6 +2,8 @@
 
 Dette er en introduksjon til [Python](https://www.python.org/) med [Jupyter Notebooks](https://jupyter.org/). En oversikt over kursinnholdet finner du i fila [index.ipynb](Fagstoff/index.ipynb) i [fagstoffmappa](https://github.com/fagstoff/Skolekoden/tree/master/Fagstoff).
 
+Høsten 2020 Skal **alle** VG1 elever programmere i matematikk. Dette krever kunnskap og ressurser for alle lærere som underviser bl.a. matematikk og naturfag. Det betyr et stort behov for kompetanseheving og tilgang til ressurser. For å være tidlig ut med forberedelsene til dette løftet ønsker vi å tilby en komplet pakke med kurs og ressurser som er frie, åpne og gratis.
+
 Kurset kan tas som en selvstendig introduksjon til programmeringsspråket Python, eller som en ressursbank for programmering i skolen.
 
 ## Slik kan du bidra
