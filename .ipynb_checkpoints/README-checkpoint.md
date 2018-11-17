@@ -1,4 +1,4 @@
-# Python-intro
+# Skolekoden
 
 Dette er en introduksjon til [Python](https://www.python.org/) med [Jupyter Notebooks](https://jupyter.org/). En oversikt over kursinnholdet finner du i fila [index.ipynb](Fagstoff/index.ipynb) i [fagstoffmappa](https://github.com/fagstoff/python-intro/tree/master/Fagstoff).
 
