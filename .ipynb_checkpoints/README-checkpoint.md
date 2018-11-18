@@ -1,10 +1,8 @@
 # Skolekoden
 
-Dette er en introduksjon til [Python](https://www.python.org/) med [Jupyter Notebooks](https://jupyter.org/). En oversikt over kursinnholdet finner du i fila [index.ipynb](Fagstoff/index.ipynb) i [fagstoffmappa](https://github.com/fagstoff/Skolekoden/tree/master/Fagstoff).
-
 Høsten 2020 Skal **alle** VG1 elever programmere i matematikk og naturfag. For å være tidlig ut med forberedelsene ønsker vi å tilby frie, åpne og gratis som kan benyttes av alle som måtte ønske det.
 
-Innholdet kan brukes som en introduksjon til programmeringsspråket Python eller brukes som en ressursbank.
+En oversikt over kursinnhold og ressurser finner du i fila [index.ipynb](Fagstoff/index.ipynb) i [fagstoffmappa](https://github.com/fagstoff/Skolekoden/tree/master/Fagstoff).
 
 ## Slik kan du bidra
 
