@@ -2,7 +2,7 @@
 
 Ønsker du å bidra med innholdsproduksjon kan det enkelt gjøres ved å:
 
-1. Lag en [fork](https://github.com/fagstoff/ProgMod#fork-destination-box) på Github
+1. Lag en [fork](https://github.com/fagstoff/Skolekoden#fork-destination-box) på Github
 1. Gjør endringer/lag innhold
 1. Legg inn en [pull request](https://help.github.com/articles/about-pull-requests/) på Github
 1. Følg retningslinjene som er beskrevet under
