@@ -1,6 +1,6 @@
 # Skolekoden
 
-Høsten 2020 Skal **alle** VG1 elever programmere i matematikk og naturfag. For å være tidlig ut med forberedelsene ønsker vi å tilby frie, åpne og gratis ressurser som kan benyttes av alle slik de selv måtte ønske.
+Høsten 2020 Skal **alle** VG1 elever [programmere i matematikk og naturfag](Fastoff/kompetansemål.ipynb). For å være tidlig ut med forberedelsene ønsker vi å tilby frie, åpne og gratis ressurser som kan benyttes av alle slik de selv måtte ønske.
 
 En oversikt over kursinnhold og ressurser finner du i fila [index.ipynb](Fagstoff/index.ipynb) i [fagstoffmappa](https://github.com/fagstoff/Skolekoden/tree/master/Fagstoff).
 
