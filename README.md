@@ -1,6 +1,6 @@
 # Skolekoden
 
-I fagfornyelsen ser det ut til at [kjerneelementene](Fagstoff/bakgrunn.ipynb) får en sentral og viktig plass. I de nye læreplanene for matematikk og naturfag er disse tydelige på at algoritmisk tenkning og programmering blir en viktig kompetanse. For å være tidlig ut med forberedelsene ønsker vi å tilby frie, åpne og gratis ressurser som kan benyttes av alle slik de selv måtte ønske.
+I fagfornyelsen har [kjerneelementene](Fagstoff/bakgrunn.ipynb) får en sentral og viktig plass. De nye læreplanene tydelige på at algoritmisk tenkning og programmering blir en viktig kompetanse io mange fag. For å være tidlig ut med forberedelsene ønsker vi å tilby og initiere til en dugnad for å produsere frie, åpne og gratis ressurser som kan benyttes av alle slik de selv måtte ønske.
 
 En oversikt over kursinnhold og ressurser finner du i fila [index.ipynb](Fagstoff/index.ipynb) i [fagstoffmappa](https://github.com/fagstoff/Skolekoden/tree/master/Fagstoff).
 
