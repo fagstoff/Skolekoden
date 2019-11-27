@@ -17,8 +17,12 @@ Stigespill er et brettspill hvor målet er å komme seg fra starten til slutten 
 </figure>
 
 ## Oppgave
+**Hvor mange kast kan man forvente å bruke for å komme i mål på stigespillet?**
 
-Lag en simulator av stigespillet som er vist i bildet ovenfor, og kjør simuleringer for å finne ut hvor mange terningkast vi i gjennomsnitt må bruke for å komme i mål i dette spillet. Vis fordelingen av terningkastene grafisk. Vurder hvor mange simuleringer som er nødvendig å kjøre for å gi sikre estimater for gjennomsnittlig antall kast for å komme i mål.
+Forslag til aktiviteter og problemstillinger:
+* Lag en simulator av stigespillet som er vist i bildet ovenfor, og kjør simuleringer for å finne ut hvor mange terningkast vi i gjennomsnitt må bruke for å komme i mål i dette spillet.
+* Vis fordelingen av terningkastene grafisk.
+* Vurder hvor mange simuleringer som er nødvendig å kjøre for å gi sikre estimater for gjennomsnittlig antall kast for å komme i mål.
 
 ## Vurderingskriterier
 
@@ -27,12 +31,6 @@ Lag en simulator av stigespillet som er vist i bildet ovenfor, og kjør simuleri
 * Programmet skal skrive ut gjennomsnitlig antall kast man må bruke for å fullføre spillet. Det skal også skrives ut hvor mange simuleringer som er kjørt.
 * Programmet skal be brukeren om å angi antall simuleringer.
 * Det skal komme klart frem av programkode og kommentarer hvordan du har løst problemet.
-
-## Kompetansemål
-
-* omgjøre problemstillinger til konkrete delproblemer, vurdere hvilke delproblemer som lar seg løse digitalt, og utforme løsninger for disse
-* bruke grunnleggende programmering som variabler, datatyper, løkker, tester, plotting, tilfeldige tall, funksjoner og enkel brukerinteraksjon
-* lage strukturerte og oversiktlige programmer med hensiktsmessige kommentarer
 
 ## Annet
 
