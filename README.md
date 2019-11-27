@@ -1,6 +1,6 @@
 # Skolekoden
 
-I fagfornyelsen har kjerneelementene fått en sentral og viktig plass. De nye læreplanene tydelige på at algoritmisk tenkning og programmering blir en viktig kompetanse i mange fag, og spesielt i matematikk. For å være tidlig ut med forberedelsene ønsker vi å tilby og initiere til en dugnad for å produsere frie åpne og gratis oppgaveressurser som kan benyttes av alle slik de selv måtte ønske.
+I fagfornyelsen har kjerneelementene fått en sentral og viktig plass. De nye læreplanene tydelige på at algoritmisk tenkning og programmering blir en viktig kompetanse i mange fag, spesielt i matematikk. 
 
 En oversikt over oppgavene finner du i [oppgavemappa](https://github.com/fagstoff/Skolekoden/tree/master/Oppgaver).
 
