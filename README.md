@@ -1,6 +1,8 @@
 # Skolekoden
 
-I fagfornyelsen har kjerneelementene fått en sentral og viktig plass. De nye læreplanene tydelige på at algoritmisk tenkning og programmering blir en viktig kompetanse i mange fag, spesielt i matematikk. 
+I fagfornyelsen har kjerneelementene fått en sentral og viktig plass. De nye læreplanene tydelige på at algoritmisk tenkning og programmering blir en viktig kompetanse i mange fag, spesielt i matematikk.
+
+I denne ressursbanken finnes det oppgaver og opplegg som kan passe godt til å jobbe med ulike kompetansemål på fag i videregående skole.
 
 En oversikt over oppgavene finner du i [oppgavemappa](https://github.com/fagstoff/Skolekoden/tree/master/Oppgaver).
 
