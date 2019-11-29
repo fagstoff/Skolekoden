@@ -19,7 +19,7 @@ Stigespill er et brettspill hvor målet er å komme seg fra starten til slutten 
 ## Oppgave
 Hvor mange kast kan man forvente å bruke for å komme i mål på stigespillet?
 
-## Forslag til aktiviteter, problemstillinger og utforsking
+## Forslag til aktiviteter og utforsking
 * Lag en simulator av stigespillet som er vist i bildet ovenfor, og kjør simuleringer for å finne ut hvor mange terningkast vi i gjennomsnitt må bruke for å komme i mål i dette spillet.
 * Vis fordelingen av terningkastene grafisk.
 * Kan du visualisere resultatene på flere måter?
