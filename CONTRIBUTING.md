@@ -13,7 +13,7 @@ Alle fagstoffsider skal oppfylle kravene som er gitt nedenfor.
 
 ### Generelle krav
 
- * Alle fagstoffsider skal implementeres som [Jupyter notebooks](https://jupyter.org/install.html)
+ * Alle oppgaver skal implementeres som [Jupyter notebooks](https://jupyter.org/install.html) eller [markdownfiler](https://en.wikipedia.org/wiki/Markdown)
  * Alle fagstoffsideer skal merkes med en [Creative Commons-lisens](https://creativecommons.org/choose/?lang=no)
     * Foretrukket lisens er [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.no)
 

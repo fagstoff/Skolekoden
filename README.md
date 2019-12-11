@@ -1,18 +1,10 @@
-# Skolekoden
+# Velkommen til skolekoden
 
-I fagfornyelsen har kjerneelementene fått en sentral og viktig plass. De nye læreplanene tydelige på at algoritmisk tenkning og programmering blir en viktig kompetanse i mange fag, spesielt i matematikk.
+Dette er en fri og åpen ressurs med oppgaver og opplegg som kan være godt egnet til å jobbe med i realfagene.
+
+I fagfornyelsen har kjerneelementene fått en sentral og viktig plass. De nye læreplanene tydelige på at algoritmisk tenkning og programmering blir en viktig kompetanse i mange fag, spesielt i matematikk. Selv om ikke programmering eksplisitt er nevnt, så kan man jobbe med mange av kompetansemålene algoritmisk. Det betyr ikke nødvendigvis at man skal programmere, men det *kan* være en fin metode.
 
 I denne ressursbanken finnes det oppgaver og opplegg som kan passe godt til å jobbe med ulike kompetansemål på fag i videregående skole.
-
-|Fag|Kompetansemål|
-|:---:|:----------|
-|**Naturfag**|vurdere og lage programmer som modellerer naturfaglige fenomener|
-|**1T**|formulere og løyse problem ved hjelp av algoritmisk tenking, ulike problemløysingsstrategiar, digitale verktøy og programmering|
-|**S1**|bruke digitale verktøy til å simulere utfall i stokastiske forsøk|
-|**S2**|bruke programmering til å utforske rekursive sammenhenger og presentere egne framgangsmåter|
-|**R1**|gjøre rede for definisjonen til den deriverte og bruke denne til å bestemme den deriverte, både geometrisk, algebraisk og med numeriske metoder<br><br>bruke digitale verktøy i beregninger og utforsking av egenskaper ved funksjoner|
-|**R2**|bruke programmering til å utforske rekursive sammenhenger og presentere egne framgangsmåter.<br><br>formulere algoritmer som beregner bestemte integraler numerisk og bruke digitale verktøy til å utføre algoritmene|
-
 
 En oversikt over oppgavene finner du i [oppgavemappa](https://github.com/fagstoff/Skolekoden/tree/master/Oppgaver).
 
