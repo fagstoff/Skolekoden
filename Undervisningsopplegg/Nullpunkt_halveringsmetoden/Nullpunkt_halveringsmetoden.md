@@ -39,7 +39,7 @@ På [wikipedia](https://no.wikipedia.org/wiki/Algoritme) kan vi lese "_I matemat
 Som en fin oppsummering av "Gjett tallet" bør man kort drøfte hvilken algoritme som ble brukt for å kommer frem til riktig tall.
 
 ## 3. Vi ser på en graf
-Vi frem grafen (Vedlegg XX) på storskjerm. Forklar om endepunktene og nullpunktet og sammenlign med leken i punkt 1. Prat sammen med elevene om hva som kan være en god strategi for å "gjette" seg inn mot nullpunktet. Vis hvordan dette gjøres for første tilnærming
+Vi ser på grafen til $f(x)=\frac{1}{4}x^3-\frac{3}{4}x^2-x+2$(Vedlegg XX) på storskjerm. Forklar om endepunktene og nullpunktet og sammenlign med leken i punkt 1. Prat sammen med elevene om hva som kan være en god strategi for å "gjette" seg inn mot nullpunktet. Vis hvordan dette gjøres for første tilnærming. Kan denne løses får hånd?
 
 ## 4. Gruppearbeid: Elevene jobber med arbeidsarket.
 Del ut arbeidsarket (vedlegg xx) og be elevene om å jobbe i grupper. De må formulere algoritmen med ord, og de skal vise grafisk og med utregning hvordan man beregner nytt midtpunkt for fem gjentagelser. Introduser gjerne begrepet: iterasjoner.
