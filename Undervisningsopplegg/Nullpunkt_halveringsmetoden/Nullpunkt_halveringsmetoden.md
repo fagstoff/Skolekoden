@@ -22,16 +22,16 @@ Relevante kompetansemål for det beskrevne undervisningsopplegget:
 8. Oppsummering
 
 ## 1. Gjett tallet
-"Gjett tallet" er en lek som de aller fleste kjenner. De fine med denne er at de aller fleste bruker halvveringsmetoden for å komme fram til riktig tall med færrest mulig forsøk.
+"Gjett tallet" er en lek som de aller fleste kjenner. De fine med denne er at mange bruker halvveringsmetoden for å komme fram til riktig tall med færrest mulig forsøk.
 
-Opplegget bør startes ved at lærer gjennomfører denne leken noen ganger sammen med klassen.
+Opplegget startes ved at lærer gjennomfører denne leken noen ganger sammen med klassen.
 
 Etter at leken er gjennomført noen ganger så bør man diskutere hvilken strategi elevene valgte når de gjettet seg fram til tallet.
 
 ## 2. Algoritmen med ord
 På [wikipedia](https://no.wikipedia.org/wiki/Algoritme) kan vi lese "_I matematikk og informatikk er en algoritme en presis beskrivelse av en endelig serie operasjoner som skal utføres for å løse et problem eller flere problemer. Hvis en prosess er algoritmisk, kan den skrives som en serie operasjoner som kan utføres gjennom beregninger._"
 
-Som en fin oppsummering av "Gjett tallet" bør man kort drøfte hvilken algoritme som ble brukt for å kommer frem til riktig tall.
+Som en fin oppsummering av "Gjett tallet" bør man kort drøfte hvilken algoritme som ble brukt for å kommer frem til riktig tall. Finnes det andre algoritmer som også finner det ukjente tallet?
 
 ## 3. Vi ser på en graf
 Vi ser på grafen til $f(x)=\frac{1}{4}x^3-\frac{3}{4}x^2-x+2$(Vedlegg XX) på storskjerm. Forklar om endepunktene og nullpunktet og sammenlign med leken i punkt 1. Prat sammen med elevene om hva som kan være en god strategi for å "gjette" seg inn mot nullpunktet. Vis hvordan dette gjøres for første tilnærming. Kan denne løses får hånd?
