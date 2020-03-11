@@ -1,4 +1,4 @@
-# Nullpunkt med halveringsmetoden
+# Finne nullpunkt med halveringsmetoden (IKKE FERDIG - ARBEID PÅGÅR)
 
 Dette er et undervisningsopplegg hvor elevene skal bruke algoritmisk tenking i utforskning og problemløsning i matematikk.
 
@@ -10,7 +10,9 @@ Relevante kompetansemål for det beskrevne undervisningsopplegget:
 * utforske strategiar for å løyse likningar, likningssystem og ulikskapar og argumentere for tenkjemåtane sine
 * utforske og beskrive eigenskapane ved polynomfunksjonar, rasjonale funksjonar, eksponentialfunksjonar og potensfunksjonar
 
-## Innhold og rekkefølge
+## Oversikt (Kladd)
+
+Mer tekst her
 
 1. Gjett tallet
 2. Algoritmen med ord
@@ -20,6 +22,9 @@ Relevante kompetansemål for det beskrevne undervisningsopplegget:
 6. Implementering i Python
 7. Fellesarbeid - Lærer og klassen reflekterer over resultatene
 8. Oppsummering
+
+
+mer tekst her...
 
 ## 1. Gjett tallet
 "Gjett tallet" er en lek som de aller fleste kjenner. De fine med denne er at de aller fleste bruker halvveringsmetoden for å komme fram til riktig tall med færrest mulig forsøk.
