@@ -49,11 +49,11 @@ Som en oppsummering av denne delen skal elevene bli enige om den "beste" algorit
 ## 3. Vi ser på en graf
 
 Vi ser på grafen til $f(x)=\frac{1}{4}x^3-\frac{3}{4}x^2-x+2$.  
-([bilde](Nullpunkt_halveringsmetoden.docx)) på storskjerm. Snakk med elevene om hva som kan være en god strategi for å "gjette" seg inn mot nullpunktet. Sammenlign med leken i punkt 1. Vis hvordan første tilnærming i nullpunktsmetoden gjøres: velg to punkter som ligger på hver side av ett av nullpunktene, og velg så en x-verdi som ligger midt mellom disse to punktene. Hva gjør vi videre?
+([bilde](Nullpunkt_halveringsmetoden.png)) på storskjerm. Snakk med elevene om hva som kan være en god strategi for å "gjette" seg inn mot nullpunktet. Sammenlign med leken i punkt 1. Vis hvordan første tilnærming i nullpunktsmetoden gjøres: velg to punkter som ligger på hver side av ett av nullpunktene, og velg så en x-verdi som ligger midt mellom disse to punktene. Hva gjør vi videre?
 
 ## 4. Gruppearbeid: Elevene jobber med arbeidsarket
 
-Del ut [arbeidsarket](Nullpunkt_halveringsmetoden.pdf) og be elevene om å jobbe i grupper. De må formulere [algoritmen](https://ordbok.uib.no/perl/ordbok.cgi?OPP=algoritme) med ord, og de skal vise grafisk og med utregning hvordan man beregner nytt midtpunkt for fem gjentagelser. Introduser gjerne begrepet [iterasjoner](https://ordbok.uib.no/perl/ordbok.cgi?OPP=iterasjon).
+Del ut [arbeidsarket](Nullpunkt_halveringsmetoden.docx) og be elevene om å jobbe i grupper. De må formulere [algoritmen](https://ordbok.uib.no/perl/ordbok.cgi?OPP=algoritme) med ord, og de skal vise grafisk og med utregning hvordan man beregner nytt midtpunkt for fem gjentagelser. Introduser gjerne begrepet [iterasjoner](https://ordbok.uib.no/perl/ordbok.cgi?OPP=iterasjon).
 
 ## 5. Fellesarbeid - Lærer og klassen reflekterer over resultatene
 
