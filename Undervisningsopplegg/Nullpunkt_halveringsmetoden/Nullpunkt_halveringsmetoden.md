@@ -30,7 +30,7 @@ Undervisningsopplegget gjennomføres i den rekkefølgen som er angitt nedenfor. 
 
 ## 1. Gjett tallet
 
-"Gjett tallet" er en lek som de aller fleste kjenner. De fine med denne er at mange bruker halvveringsmetoden for å komme fram til riktig tall med færrest mulig forsøk.
+"Gjett tallet" er en lek som de aller fleste kjenner. Det fine med denne leken er at mange bruker halvveringsmetoden for å komme fram til riktig tall med færrest mulig forsøk.
 
 Opplegget startes ved at lærer gjennomfører denne leken noen ganger sammen med klassen. Lærer kan for eksempel velge seg et tilfeldig tall mellom 1 og 20, og be elevene om å gjette tallet. Når elevene gjetter, skal læreren svare "for høyt", "for lavt" eller eventuelt "riktig!".
 
