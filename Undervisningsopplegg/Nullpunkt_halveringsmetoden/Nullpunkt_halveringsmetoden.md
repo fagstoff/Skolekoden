@@ -10,7 +10,7 @@ Utgangspunktet er [læreplan for matematikk 1T](https://www.udir.no/lk20/mat09-0
 
 Undervisningsopplegget er knyttet til [kjerneelementene](https://www.udir.no/lk20/mat09-01/om-faget/kjerneelementer) "utforsking og problemløysing", "representasjon og kommunikasjon" og "resonnering og argumentasjon".
 
-En nærmere beskrivelse av hvordan vi har jobbet under utarbeidelsen av dette undervisningsopplegget er gitt i dokumentet [Forslag til arbeidsmåte for å lage undervisningsopplegg i matematikk]().
+En nærmere beskrivelse av hvordan vi har jobbet under utarbeidelsen av dette undervisningsopplegget er gitt i dokumentet [Forslag til arbeidsmåte for å lage undervisningsopplegg i matematikk](../Forslag_til_arbeidsmåte_for_å_lage_undervisningsopplegg_i_matematikk.md).
 
 I det følgende er det gitt en detaljert beskrivelse av hvordan vi har tenkt at dette undervisningsopplegget skal gjennomføres.
 
@@ -40,13 +40,15 @@ Etter at læreren har gjennomført en runde, kan elevene jobbe 2 og 2 med den sa
 
 Når "Gjett tallet" er gjort noen ganger, gjennomføres en plenumsdiskusjon om hvilke strategier de valgte når de gjettet seg fram til tallet.
 
-På [wikipedia](https://no.wikipedia.org/wiki/Algoritme) står det at "_I matematikk og informatikk er en algoritme en presis beskrivelse av en endelig serie operasjoner som skal utføres for å løse et problem eller flere problemer. Hvis en prosess er algoritmisk, kan den skrives som en serie operasjoner som kan utføres gjennom beregninger._"
+På [wikipedia](https://no.wikipedia.org/wiki/Algoritme) står det at: 
+
+    "_I matematikk og informatikk er en algoritme en presis beskrivelse av en endelig serie operasjoner som skal utføres for å løse et problem eller flere problemer. Hvis en prosess er algoritmisk, kan den skrives som en serie operasjoner som kan utføres gjennom beregninger._"
 
 Som en oppsummering av denne delen skal elevene bli enige om den "beste" algoritmen for å kommer frem til riktig tall (den som gir færrest gjettinger). Finnes det alternative algoritmer som også finner det ukjente tallet?
 
 ## 3. Vi ser på en graf
 
-Vi ser på grafen til $f(x)=\frac{1}{4}x^3-\frac{3}{4}x^2-x+2$(Vedlegg XX) på storskjerm. Forklar om endepunktene og nullpunktet og sammenlign med leken i punkt 1. Prat sammen med elevene om hva som kan være en god strategi for å "gjette" seg inn mot nullpunktet. Vis hvordan dette gjøres for første tilnærming. Kan denne løses får hånd?
+Vi ser på grafen til $f(x)=\frac{1}{4}x^3-\frac{3}{4}x^2-x+2$ ([bilde](Nullpunkt_halveringsmetoden.png)) på storskjerm. Forklar om endepunktene og nullpunktet og sammenlign med leken i punkt 1. Prat sammen med elevene om hva som kan være en god strategi for å "gjette" seg inn mot nullpunktet. Vis hvordan dette gjøres for første tilnærming. Kan denne løses får hånd?
 
 ## 4. Gruppearbeid: Elevene jobber med arbeidsarket
 
