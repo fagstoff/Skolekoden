@@ -77,6 +77,5 @@ Mer tekst her
 ## 9. Vurdering
 
 * Løse likninger (forslag kommer)
-* Finne skjæringspunkt mellom to funksjoner (forslag kommer)
 
 _Dette undervisningsopplegget er laget av [fuzzbin](https://github.com/fuzzbin) og [bitjungle](https://github.com/bitjungle). Oppgaven er lisensiert under en [Creative Commons Navngivelse-DelPåSammeVilkår 4.0 Internasjonal lisens.](http://creativecommons.org/licenses/by-sa/4.0/)_
