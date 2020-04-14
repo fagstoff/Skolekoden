@@ -42,7 +42,7 @@ Når "Gjett tallet" er gjort noen ganger, gjennomføres en plenumsdiskusjon om h
 
 På [wikipedia](https://no.wikipedia.org/wiki/Algoritme) står det at: 
 
-    "_I matematikk og informatikk er en algoritme en presis beskrivelse av en endelig serie operasjoner som skal utføres for å løse et problem eller flere problemer. Hvis en prosess er algoritmisk, kan den skrives som en serie operasjoner som kan utføres gjennom beregninger._"
+> "_I matematikk og informatikk er en algoritme en presis beskrivelse av en endelig serie operasjoner som skal utføres for å løse et problem eller flere problemer. Hvis en prosess er algoritmisk, kan den skrives som en serie operasjoner som kan utføres gjennom beregninger._"
 
 Som en oppsummering av denne delen skal elevene bli enige om den "beste" algoritmen for å kommer frem til riktig tall (den som gir færrest gjettinger). Finnes det alternative algoritmer som også finner det ukjente tallet?
 
@@ -74,7 +74,7 @@ Mer tekst her
 
 ## 9. Vurdering
 
-Mer tekst her
-
+* Løse likninger (forslag kommer)
+* Finne skjæringspunkt mellom to funksjoner (forslag kommer)
 
 _Dette undervisningsopplegget er laget av [fuzzbin](https://github.com/fuzzbin) og [bitjungle](https://github.com/bitjungle). Oppgaven er lisensiert under en [Creative Commons Navngivelse-DelPåSammeVilkår 4.0 Internasjonal lisens.](http://creativecommons.org/licenses/by-sa/4.0/)_
