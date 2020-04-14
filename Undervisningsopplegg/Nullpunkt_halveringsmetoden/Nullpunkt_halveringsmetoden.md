@@ -48,7 +48,9 @@ Som en oppsummering av denne delen skal elevene bli enige om den "beste" algorit
 
 ## 3. Vi ser på en graf
 
-Vi ser på grafen til $f(x)=\frac{1}{4}x^3-\frac{3}{4}x^2-x+2$ ([bilde](Nullpunkt_halveringsmetoden.png)) på storskjerm. Forklar om endepunktene og nullpunktet og sammenlign med leken i punkt 1. Prat sammen med elevene om hva som kan være en god strategi for å "gjette" seg inn mot nullpunktet. Vis hvordan dette gjøres for første tilnærming. Kan denne løses får hånd?
+Vi ser på grafen til 
+$$f(x)=\frac{1}{4}x^3-\frac{3}{4}x^2-x+2$$ 
+([bilde](Nullpunkt_halveringsmetoden.png)) på storskjerm. Forklar om endepunktene og nullpunktet og sammenlign med leken i punkt 1. Prat sammen med elevene om hva som kan være en god strategi for å "gjette" seg inn mot nullpunktet. Vis hvordan dette gjøres for første tilnærming. Kan denne løses for hånd?
 
 ## 4. Gruppearbeid: Elevene jobber med arbeidsarket
 
