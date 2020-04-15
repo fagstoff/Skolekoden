@@ -2,6 +2,8 @@
 
 Dette er et undervisningsopplegg hvor elevene skal bruke algoritmisk tenking i utforskning og problemløsning i matematikk.
 
+I arbeidet med å lage dette undervisningsopplegget har vi forsøkt å bruke [det nye læreplanverket](https://www.udir.no/laring-og-trivsel/lareplanverket/) aktivt. Vi har jobba fram og tilbake mellom kompetansemål, kompetansebegrepet, kjerneelementene, de grunnleggende ferdighetene, formålet og verdigrunnlaget. Sett i lys av alle disse delene av læreplanverket, har vi forsøkt å justere undervisningsopplegget. Den eneste sentrale delen av det nye læreplanverket som ikke har hatt noen innvirkning på undervisningsopplegget er de tverrfaglige temaene.
+
 Utgangspunktet er [læreplan for matematikk 1T](https://www.udir.no/lk20/mat09-01) som gjelder fra 1.8.2020. Relevante kompetansemål for undervisningsopplegget er:
 
 * formulere og løyse problem ved hjelp av algoritmisk tenking, ulike problemløysingsstrategiar, digitale verktøy og programmering
@@ -10,7 +12,9 @@ Utgangspunktet er [læreplan for matematikk 1T](https://www.udir.no/lk20/mat09-0
 
 Undervisningsopplegget er knyttet til [kjerneelementene](https://www.udir.no/lk20/mat09-01/om-faget/kjerneelementer) "utforsking og problemløysing", "representasjon og kommunikasjon" og "resonnering og argumentasjon".
 
-En nærmere beskrivelse av hvordan vi har jobbet under utarbeidelsen av dette undervisningsopplegget er gitt i dokumentet [Forslag til arbeidsmåte for å lage undervisningsopplegg i matematikk](../Forslag_til_arbeidsmåte_for_å_lage_undervisningsopplegg_i_matematikk.md).
+[Kompetansebegrepet i det nye læreplanverket](https://www.udir.no/lk20/overordnet-del/prinsipper-for-laring-utvikling-og-danning/kompetanse-i-fagene/?kode=mat09-01&lang=nno) har vært sentralt i arbeidet med å utforme dette undervisningsopplegget, spesielt med hensyn på hvordan vi kan vurdere elevenes kompetanse.
+
+> Kompetanse er å kunne tileigne seg og nytte kunnskapar og ferdigheiter til å meistre utfordringar og løyse oppgåver i kjende og ukjende samanhengar og situasjonar. Kompetanse inneber forståing og evne til refleksjon og kritisk tenking.
 
 I det følgende er det gitt en detaljert beskrivelse av hvordan vi har tenkt at dette undervisningsopplegget skal gjennomføres.
 
@@ -26,7 +30,7 @@ Undervisningsopplegget gjennomføres i den rekkefølgen som er angitt nedenfor. 
 6. Implementering i Python
 7. Fellesarbeid - Lærer og klassen reflekterer over resultatene
 8. Oppsummering
-9. Vurdering
+9. Vurdering av kompetanse
 
 ## 1. Gjett tallet
 
@@ -48,7 +52,7 @@ Som en oppsummering av denne delen skal elevene bli enige om den "beste" algorit
 
 ## 3. Vi ser på en graf
 
-Vi ser på grafen til <code>f(x) = &frac14;x<sup>3</sup> - &frac34;x<sup>2</sup> - x + 2</code>.
+Vi ser på grafen til <code>f(x)&nbsp;=&nbsp;&frac14;x<sup>3</sup>&nbsp;-&nbsp;&frac34;x<sup>2</sup>&nbsp;-&nbsp;x&nbsp;+&nbsp;2</code>.
 ([bilde](Nullpunkt_halveringsmetoden.png)) på storskjerm. Snakk med elevene om hva som kan være en god strategi for å "gjette" seg inn mot nullpunktet. Sammenlign med leken i punkt 1. Vis hvordan første tilnærming i nullpunktsmetoden gjøres: velg to punkter som ligger på hver side av ett av nullpunktene, og velg så en x-verdi som ligger midt mellom disse to punktene. Hva gjør vi videre?
 
 ## 4. Gruppearbeid: Elevene jobber med arbeidsarket
@@ -73,8 +77,10 @@ Oppsummering og test på andre funksjoner og oppgaver.
 
 Mer tekst her
 
-## 9. Vurdering
+## 9. Vurdering av kompetanse
 
-* Løse likninger (forslag kommer)
+Med den kunnskapen og de ferdighetene elevene har hatt mulighet til å tilegne seg gjennom aktivitetene i dette undervisningsopplegget, bør de kunne finne nullpunkter til alle reelle funksjoner. De kan nå for eksempel vise kompetansen sin i nye og ukjente sammenhenger gjennom å bruke nullpunktsmetoden for å løse likninger. Her er et forslag:
+
+<code>-3x&nbsp;-&nbsp;8&nbsp;=&nbsp;-x<sup>2</sup>&nbsp;+&nbsp;4x&nbsp;-&nbsp;5</code>
 
 _Dette undervisningsopplegget er laget av [fuzzbin](https://github.com/fuzzbin) og [bitjungle](https://github.com/bitjungle). Oppgaven er lisensiert under en [Creative Commons Navngivelse-DelPåSammeVilkår 4.0 Internasjonal lisens.](http://creativecommons.org/licenses/by-sa/4.0/)_
