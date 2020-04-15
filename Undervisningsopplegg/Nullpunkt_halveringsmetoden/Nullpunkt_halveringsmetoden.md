@@ -75,7 +75,7 @@ Det er ikke nødvendig for elevene å ha Python installert på egne datamaskiner
 
 ## 7. Fellesarbeid - Lærer og klassen reflekterer over resultatene
 
-Nå er det tid for fellesrefleksjon der gruppene muntlig presenterer sine funn. Læreren fasiliserer og skriver opp en løsning i Python. Dette er en fin anledning til å sammenlikne resultatene på arbeidsarket med programmet. Demonstrer ulikt antall iterasjoner. Vi eksempler på når algoritmen feiler.
+Nå er det tid for fellesrefleksjon der gruppene muntlig presenterer sine funn. Læreren legger til rette for presentasjonene, og skriver ned en mulig løsning i Python. Dette er en fin anledning til å sammenlikne resultatene på arbeidsarket med programmet. Demonstrer ulikt antall iterasjoner/toleranse. Vi eksempler på når algoritmen feiler, for eksempel uheldige valg av startverdier for a og b.
 
 ## 8. Oppsummering
 
@@ -85,7 +85,7 @@ Mer tekst her
 
 ## 9. Vurdering av kompetanse
 
-Med den kunnskapen og de ferdighetene elevene har hatt mulighet til å tilegne seg gjennom aktivitetene i dette undervisningsopplegget, bør de kunne finne nullpunkter til alle reelle funksjoner. De kan nå for eksempel vise kompetansen sin i nye og ukjente sammenhenger gjennom å bruke nullpunktsmetoden for å løse likninger. Her er et forslag:
+Med den kunnskapen og de ferdighetene elevene har hatt mulighet til å tilegne seg gjennom aktivitetene i dette undervisningsopplegget, bør de kunne finne nullpunkter til alle reelle funksjoner. De kan nå for eksempel vise kompetansen sin i nye og ukjente sammenhenger gjennom å bruke nullpunktsmetoden for å løse likninger eller finne skjæringspunktet til grafene for to funksjoner. Her er et forslag:
 
 <code>-3x&nbsp;-&nbsp;8&nbsp;=&nbsp;-x<sup>2</sup>&nbsp;+&nbsp;4x&nbsp;-&nbsp;5</code>
 
