@@ -65,7 +65,13 @@ Nå er det tid for fellesrefleksjon der gruppene muntlig presenterer sine funn. 
 
 ## 6. Implementering i Python
 
-Elevene fortsetter nå med å jobbe i grupper. Nå skal algoritmen implementeres i Python! Bruk god tid. Lærer går rundt å veileder. [Et løsningsforslag er gitt her](Nullpunkt_halveringsmetoden.py).
+Elevene fortsetter nå med å jobbe i grupper. Nå skal algoritmen implementeres i Python! Bruk god tid. Lærer går rundt og veileder. [Et løsningsforslag er gitt her](Nullpunkt_halveringsmetoden.py).
+
+Det er ikke nødvendig for elevene å ha Python installert på egne datamaskiner. Her er noen online-ressurser som kan brukes til denne oppgava:
+
+* [repl.it](https://repl.it/languages/python3)
+* [trinket.io](https://trinket.io/python3)
+* [Azure Notebooks](https://notebooks.azure.com/)
 
 ## 7. Fellesarbeid - Lærer og klassen reflekterer over resultatene
 
