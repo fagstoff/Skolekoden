@@ -23,7 +23,7 @@ Felles for alle løsningene er at det er nyttig å ha noe kunnskap om skjærings
 3. Regn ut midtpunktet _x_ mellom _a_ og _b_: <code>_x&nbsp;=&nbsp;(a&nbsp;+&nbsp;b)&nbsp;/&nbsp;2_</code>.
 4. Regn ut _f(x)_. 
 5. Regn ut produktet <code>_p&nbsp;=&nbsp;f(a)&middot;f(x)_</code>.
-6. Dersom verdien til _p_ er positivt, gå til punkt 6. Dersom verdien til _p_ er negativt, gå til punkt 7.
+6. Dersom verdien til _p_ er positivt, gå til punkt 7. Dersom verdien til _p_ er negativt, gå til punkt 8.
 7. Gi _a_ verdien til _x_ og gå til punkt 2.
 8. Gi _b_ verdien til _x_ og gå til punkt 2.
 9. Den siste x-verdien du regnet ut er svaret ditt.
@@ -32,5 +32,5 @@ Felles for alle løsningene er at det er nyttig å ha noe kunnskap om skjærings
 
 1. Velg et startpunkt _x_ som utgangspunkt.
 2. Lag uttrykket <code>_h(x) = -f(x)/f'(x)_</code>.
-3. Vi kan nå beregne neste iterasjon av x med koden <code>x_(n+1) = x_(n) + h(x(n))</code>.
+3. Vi kan nå beregne neste iterasjon av x med koden <code>_x<sub>n+1</sub> = x<sub>n</sub> + h(x<sub>n</sub>))_</code>.
 4. Gjenta punkt 2 til ønsket nøyaktighet er oppnådd.
