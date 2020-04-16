@@ -39,7 +39,9 @@ Vi ser på grafen til <code>f(x)&nbsp;=&nbsp;&frac14;x<sup>3</sup>&nbsp;-&nbsp;&
 
 ## 4. Gruppearbeid: Elevene jobber med arbeidsarket
 
-Del ut [arbeidsarket](Nullpunkt_halveringsmetoden.docx) og be elevene om å jobbe i grupper. De må formulere [algoritmen](https://snl.no/algoritme) med ord, og de skal vise grafisk og med utregning hvordan man beregner nytt midtpunkt for fem gjentagelser. Introduser gjerne begrepet [iterasjon](https://snl.no/iterasjon).
+Del ut [arbeidsarket](Nullpunkt_halveringsmetoden_arbeidsark.pdf) ([docx](Nullpunkt_halveringsmetoden_arbeidsark.docx)) og be elevene om å jobbe i grupper. De må formulere [algoritmen](https://snl.no/algoritme) med ord, og de skal vise grafisk og med utregning hvordan man beregner nytt midtpunkt for fem gjentagelser. Introduser gjerne begrepet [iterasjon](https://snl.no/iterasjon).
+
+Du kan også laste ned et [løsningsforslag til arbeidsarket](Nullpunkt_halveringsmetoden_løsningsforslag.pdf) ([docx](Nullpunkt_halveringsmetoden_løsningsforslag.docx)).
 
 ## 5. Fellesarbeid - Lærer og klassen reflekterer over resultatene
 
