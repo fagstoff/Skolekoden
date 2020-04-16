@@ -11,7 +11,7 @@ Felles for alle løsningene er at det er nyttig å ha noe kunnskap om skjærings
 1. Velg et startpunkt _x_ som du tror at ligger til venstre for nullpunktet.
 2. Velg et lite positivt tall _dx_ som du skal legge til _x_ for å gradvis forflytte deg bortover tallinja.
 3. Regn ut _f(x)_. Husk dette tallet.
-4. Lag en ny x slik: <code>_x&nbsp;=x&nbsp;+&nbsp;dx_</code>.
+4. Lag en ny x slik: <code>_x&nbsp;= x&nbsp;+&nbsp;dx_</code>.
 5. Regn ut _f(x)_ igjen, og sammenlikn med forrige utregning. 
 6. Dersom fortegnet er det samme, gå tilbake til punkt 4. Dersom fortegnet er ulikt, gå til punkt 7.
 7. Regn ut midtpunktet mellom de to siste x-verdiene du brukte. Dette er svaret ditt.
@@ -27,3 +27,9 @@ Felles for alle løsningene er at det er nyttig å ha noe kunnskap om skjærings
 7. Gi _a_ verdien til _x_ og gå til punkt 2.
 8. Gi _b_ verdien til _x_ og gå til punkt 2.
 9. Den siste x-verdien du regnet ut er svaret ditt.
+
+## Newtons metode
+
+1. Lag deg funksjonen <code>_h(x) = -f(x)/f'(x)_</code>.
+2. Vi kan nå beregne neste iterasjon av x med koden <code>x_(n+1) = x_(n) + h(x(n))</code>.
+3. Gjenta punkt 2 til ønsket nøyaktighet er oppnådd.
