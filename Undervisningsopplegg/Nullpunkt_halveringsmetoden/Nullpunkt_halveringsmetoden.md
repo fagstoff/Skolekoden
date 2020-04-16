@@ -42,13 +42,11 @@ Etter at læreren har gjennomført en runde, kan elevene jobbe 2 og 2 med den sa
 
 ## 2. Algoritmen med ord
 
-Når "Gjett tallet" er gjort noen ganger, gjennomføres en plenumsdiskusjon om hvilke strategier de valgte når de gjettet seg fram til tallet.
+Når "Gjett tallet" er gjort noen ganger, gjennomføres en plenumsdiskusjon om hvilke strategier de valgte når de gjettet seg fram til tallet. Elevene skal formulere en [algoritme](https://snl.no/algoritme) med ord. Introduser begrepet algoritme for elevene. SNL definerer det slik: 
 
-På [Wikipedia](https://no.wikipedia.org/wiki/Algoritme) er en algoritme definert slik: 
+> "_...en fullstendig og nøyaktig beskrivelse av fremgangsmåten for løsning av en beregningsoppgave eller annen oppgave._"
 
-> "_I matematikk og informatikk er en algoritme en presis beskrivelse av en endelig serie operasjoner som skal utføres for å løse et problem eller flere problemer. Hvis en prosess er algoritmisk, kan den skrives som en serie operasjoner som kan utføres gjennom beregninger._"
-
-Som en oppsummering av denne delen skal elevene bli enige om den "beste" algoritmen for å kommer frem til riktig tall (den som gir færrest gjettinger). Finnes det alternative algoritmer som også finner det ukjente tallet?
+Som en oppsummering av denne delen skal elevene bli enige om den "beste" algoritmen for å kommer frem til riktig tall (den som gir færrest gjettinger). Det finnes det [flere mulige algoritmer for å komme fram til nullpunktet](Nullpunkt_halveringsmetoden_algoritmer.md).
 
 ## 3. Vi ser på en graf
 
@@ -57,7 +55,7 @@ Vi ser på grafen til <code>f(x)&nbsp;=&nbsp;&frac14;x<sup>3</sup>&nbsp;-&nbsp;&
 
 ## 4. Gruppearbeid: Elevene jobber med arbeidsarket
 
-Del ut [arbeidsarket](Nullpunkt_halveringsmetoden.docx) og be elevene om å jobbe i grupper. De må formulere [algoritmen](https://ordbok.uib.no/perl/ordbok.cgi?OPP=algoritme) med ord, og de skal vise grafisk og med utregning hvordan man beregner nytt midtpunkt for fem gjentagelser. Introduser gjerne begrepet [iterasjoner](https://ordbok.uib.no/perl/ordbok.cgi?OPP=iterasjon).
+Del ut [arbeidsarket](Nullpunkt_halveringsmetoden.docx) og be elevene om å jobbe i grupper. De må formulere [algoritmen](https://snl.no/algoritme) med ord, og de skal vise grafisk og med utregning hvordan man beregner nytt midtpunkt for fem gjentagelser. Introduser gjerne begrepet [iterasjon](https://snl.no/iterasjon).
 
 ## 5. Fellesarbeid - Lærer og klassen reflekterer over resultatene
 
@@ -81,12 +79,16 @@ Nå er det tid for fellesrefleksjon der gruppene muntlig presenterer sine funn. 
 
 Oppsummering og test på andre funksjoner og oppgaver.
 
-Mer tekst her
+* <code>g(x)&nbsp;=&nbsp;-3x&nbsp;-&nbsp;8</code>
+* <code>h(x)&nbsp;=&nbsp;-x<sup>2</sup>&nbsp;+&nbsp;4x&nbsp;-&nbsp;5</code> (har ingen reelle nullpunkter)
 
 ## 9. Vurdering av kompetanse
 
-Med den kunnskapen og de ferdighetene elevene har hatt mulighet til å tilegne seg gjennom aktivitetene i dette undervisningsopplegget, bør de kunne finne nullpunkter til alle reelle funksjoner. De kan nå for eksempel vise kompetansen sin i nye og ukjente sammenhenger gjennom å bruke nullpunktsmetoden for å løse likninger eller finne skjæringspunktet til grafene for to funksjoner. Her er et forslag:
+Med den kunnskapen og de ferdighetene elevene har hatt mulighet til å tilegne seg gjennom aktivitetene i dette undervisningsopplegget, bør de kunne finne nullpunkter til alle reelle funksjoner. De kan nå for eksempel vise kompetansen sin i nye og ukjente sammenhenger gjennom å bruke nullpunktsmetoden for å løse likninger eller finne skjæringspunktet til grafene for to funksjoner. Her er to forslag:
 
-<code>-3x&nbsp;-&nbsp;8&nbsp;=&nbsp;-x<sup>2</sup>&nbsp;+&nbsp;4x&nbsp;-&nbsp;5</code>
+* <code>-3x&nbsp;-&nbsp;8&nbsp;=&nbsp;-x<sup>2</sup>&nbsp;+&nbsp;4x&nbsp;-&nbsp;5</code>
+* <code>cos(x)&nbsp;=&nbsp;x</code>
+
+---
 
 _Dette undervisningsopplegget er laget av [fuzzbin](https://github.com/fuzzbin) og [bitjungle](https://github.com/bitjungle). Oppgaven er lisensiert under en [Creative Commons Navngivelse-DelPåSammeVilkår 4.0 Internasjonal lisens.](http://creativecommons.org/licenses/by-sa/4.0/)_
