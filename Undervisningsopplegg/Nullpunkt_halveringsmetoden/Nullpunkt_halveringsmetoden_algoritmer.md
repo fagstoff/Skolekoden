@@ -34,4 +34,3 @@ Felles for alle løsningene er at det er nyttig å ha noe kunnskap om skjærings
 2. Lag uttrykket <code>_h(x) = -f(x)/f'(x)_</code>.
 3. Vi kan nå beregne neste verdi for _x_ med koden <code>_x<sub>n+1</sub> = x<sub>n</sub> + h(x<sub>n</sub>)_</code>.
 4. Gjenta punkt 2 til ønsket nøyaktighet er oppnådd.
-5. Test av matematikkrendering $\frac{1}{4_{n+1}}$
