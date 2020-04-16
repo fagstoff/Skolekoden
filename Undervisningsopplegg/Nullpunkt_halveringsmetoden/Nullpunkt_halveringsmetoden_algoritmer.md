@@ -30,7 +30,7 @@ Felles for alle løsningene er at det er nyttig å ha noe kunnskap om skjærings
 
 ## Newtons metode
 
-1. Velg et startpunkt _x_ som utgangspunkt.
-2. Lag uttrykket <code>_h(x) = -f(x)/f'(x)_</code>.
-3. Vi kan nå beregne neste verdi for _x_ med koden <code>_x<sub>n+1</sub> = x<sub>n</sub> + h(x<sub>n</sub>)_</code>.
-4. Gjenta punkt 2 til ønsket nøyaktighet er oppnådd.
+1. Velg en verdi <code>_x<sub>n</sub>_</code> som startpunkt.
+2. Lag uttrykket <code>_h(x<sub>n</sub>) = f((x<sub>n</sub>)/f'((x<sub>n</sub>)_</code>.
+3. Vi kan nå beregne neste tilnærming til nullpuntet med koden <code>_x<sub>n+1</sub> = x<sub>n</sub> - h(x<sub>n</sub>)_</code>.
+4. Gjenta fra punkt 2 med ny <code>_x<sub>n</sub>_</code> inntil ønsket nøyaktighet er oppnådd.
