@@ -2,7 +2,7 @@
 
 Dette er et undervisningsopplegg hvor elevene skal bruke algoritmisk tenking i utforskning og problemløsning i matematikk.
 
-I arbeidet med å lage dette undervisningsopplegget har vi forsøkt å bruke [det nye læreplanverket](https://www.udir.no/laring-og-trivsel/lareplanverket/) aktivt. Vi har jobba fram og tilbake mellom kompetansemål, kompetansebegrepet, kjerneelementene, de grunnleggende ferdighetene, formålet og verdigrunnlaget. Sett i lys av alle disse delene av læreplanverket, har vi forsøkt å justere undervisningsopplegget. Den eneste sentrale delen av det nye læreplanverket som ikke har hatt noen innvirkning på undervisningsopplegget er de tverrfaglige temaene.
+I arbeidet med å lage dette undervisningsopplegget har vi forsøkt å bruke [det nye læreplanverket](https://www.udir.no/laring-og-trivsel/lareplanverket/) aktivt. Vi har jobba fram og tilbake mellom kompetansemål, kompetansebegrepet, kjerneelementene, de grunnleggende ferdighetene, formålet og verdigrunnlaget. Sett i lys av alle disse delene av læreplanverket, har vi forsøkt å justere undervisningsopplegget. Den eneste sentrale delen av det nye læreplanverket som ikke har blitt brukt under utarbeidelsen av dette undervisningsopplegget er de tverrfaglige temaene.
 
 Utgangspunktet er [læreplan for matematikk 1T](https://www.udir.no/lk20/mat09-01) som gjelder fra 1.8.2020. Relevante kompetansemål for undervisningsopplegget er:
 
