@@ -65,15 +65,17 @@ Nå er det tid for fellesrefleksjon der gruppene muntlig presenterer sine funn. 
 
 Oppsummering og test på andre funksjoner og oppgaver.
 
-* <code>g(x)&nbsp;=&nbsp;-3x&nbsp;-&nbsp;8</code>
-* <code>h(x)&nbsp;=&nbsp;-x<sup>2</sup>&nbsp;+&nbsp;4x&nbsp;-&nbsp;5</code> (har ingen reelle nullpunkter)
+* <code>_g(x)&nbsp;=&nbsp;-3x&nbsp;-&nbsp;8_</code>
+* <code>_h(x)&nbsp;=&nbsp;-x<sup>2</sup>&nbsp;+&nbsp;4x&nbsp;-&nbsp;5_</code> (har ingen reelle nullpunkter)
+* <code>_k(x)&nbsp;=&nbsp;2x&nbsp;-&nbsp;2<sup>x</sup>&nbsp;+&nbsp;2_</code>
 
 ## 9. Vurdering av kompetanse
 
-Med den kunnskapen og de ferdighetene elevene har hatt mulighet til å tilegne seg gjennom aktivitetene i dette undervisningsopplegget, bør de kunne finne nullpunkter til alle reelle funksjoner. De kan nå for eksempel vise kompetansen sin i nye og ukjente sammenhenger gjennom å bruke nullpunktsmetoden for å løse likninger eller finne skjæringspunktet til grafene for to funksjoner. Her er to forslag:
+Med den kunnskapen og de ferdighetene elevene har hatt mulighet til å tilegne seg gjennom aktivitetene i dette undervisningsopplegget, bør de kunne finne nullpunkter til alle reelle funksjoner. De kan nå for eksempel vise kompetansen sin i nye og ukjente sammenhenger gjennom å bruke nullpunktsmetoden for å løse likninger eller finne skjæringspunktet til grafene for to funksjoner. Her er noen forslag:
 
-* <code>-3x&nbsp;-&nbsp;8&nbsp;=&nbsp;-x<sup>2</sup>&nbsp;+&nbsp;4x&nbsp;-&nbsp;5</code>
-* <code>cos(x)&nbsp;=&nbsp;x</code>
+* Finn skjæringspunktet til grafene for funksjonene <code>_g(x)&nbsp;=&nbsp;-3x&nbsp;-&nbsp;8_</code> og <code>_h(x)&nbsp;=&nbsp;&nbsp;-x<sup>2</sup>&nbsp;+&nbsp;4x&nbsp;-&nbsp;5_</code>.
+* Løs likningen <code>_-3x&nbsp;-&nbsp;8&nbsp;=&nbsp;-x<sup>2</sup>&nbsp;+&nbsp;4x&nbsp;-&nbsp;5_</code>.
+* Løs likningen <code>_cos(x)&nbsp;=&nbsp;x_</code>.
 
 ---
 
