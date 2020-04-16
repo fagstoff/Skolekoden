@@ -30,6 +30,7 @@ Felles for alle løsningene er at det er nyttig å ha noe kunnskap om skjærings
 
 ## Newtons metode
 
-1. Lag deg funksjonen <code>_h(x) = -f(x)/f'(x)_</code>.
-2. Vi kan nå beregne neste iterasjon av x med koden <code>x_(n+1) = x_(n) + h(x(n))</code>.
-3. Gjenta punkt 2 til ønsket nøyaktighet er oppnådd.
+1. Velg et startpunkt _x_ som utgangspunkt.
+2. Lag uttrykket <code>_h(x) = -f(x)/f'(x)_</code>.
+3. Vi kan nå beregne neste iterasjon av x med koden <code>x_(n+1) = x_(n) + h(x(n))</code>.
+4. Gjenta punkt 2 til ønsket nøyaktighet er oppnådd.
