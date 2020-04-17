@@ -4,6 +4,7 @@ Copyright (C) 2020 BITJUNGLE Rune Mathisen
 Koden er lisensiert under en GPLv3-lisens 
 Se http://www.gnu.org/licenses/gpl-3.0.html 
 '''
+
 def f(x):
     '''Funksjonen som er gitt i oppgava.'''
     return (1/4)*x**3 - (3/4)*x**2 - x + 2
