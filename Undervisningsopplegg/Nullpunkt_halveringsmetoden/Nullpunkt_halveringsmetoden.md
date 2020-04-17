@@ -59,11 +59,13 @@ Det er ikke nødvendig for elevene å ha Python installert på egne datamaskiner
 
 ## 7. Fellesarbeid - Lærer og klassen reflekterer over resultatene
 
-Nå er det tid for fellesrefleksjon der gruppene muntlig presenterer sine funn. Læreren legger til rette for presentasjonene, og skriver ned en mulig løsning i Python. Dette er en fin anledning til å sammenlikne resultatene på arbeidsarket med programmet. Demonstrer ulikt antall iterasjoner/toleranse. Vi eksempler på når algoritmen feiler, for eksempel uheldige valg av startverdier for a og b.
+Nå er det tid for fellesrefleksjon der gruppene muntlig presenterer sine funn. Læreren legger til rette for presentasjonene, og skriver ned en mulig løsning i Python. Dette er en fin anledning til å sammenlikne resultatene på arbeidsarket med programmet. 
+
+Demonstrer effekten av ulikt antall iterasjoner/toleranse når du gjennomgår løsningsforslaget. Vis også eksempler på når algoritmen feiler, for eksempel uheldige valg av startverdier for a og b.
 
 ## 8. Oppsummering
 
-Oppsummering og test på andre funksjoner og oppgaver.
+Avslutt opplegget med e oppsummering hvor du trekker linjene fra "Gjett tallet" og fram til den ferdige løsningen i Python. Utfordre elevene til å teste på andre funksjoner og oppgaver. Her er noen forslag:
 
 * <code>_g(x)&nbsp;=&nbsp;-3x&nbsp;-&nbsp;8_</code>
 * <code>_h(x)&nbsp;=&nbsp;-x<sup>2</sup>&nbsp;+&nbsp;4x&nbsp;-&nbsp;5_</code> (har ingen reelle nullpunkter)
@@ -71,7 +73,9 @@ Oppsummering og test på andre funksjoner og oppgaver.
 
 ## 9. Vurdering av kompetanse
 
-Med den kunnskapen og de ferdighetene elevene har hatt mulighet til å tilegne seg gjennom aktivitetene i dette undervisningsopplegget, bør de kunne finne nullpunkter til alle reelle funksjoner. De kan nå for eksempel vise kompetansen sin i nye og ukjente sammenhenger gjennom å bruke nullpunktsmetoden for å løse likninger eller finne skjæringspunktet til grafene for to funksjoner. Her er noen forslag:
+Med den kunnskapen og de ferdighetene elevene har hatt mulighet til å tilegne seg gjennom aktivitetene i dette undervisningsopplegget, bør de kunne finne nullpunkter til alle reelle funksjoner. De kan nå for eksempel vise kompetansen sin i nye og ukjente sammenhenger gjennom å bruke nullpunktsmetoden for å løse likninger eller finne skjæringspunktet til grafene for to funksjoner. 
+
+Her er noen forslag til oppgaver som elevene kan jobbe med for å vise og videreutvikle kompetansen sin:
 
 * Finn skjæringspunktet til grafene for funksjonene <code>_g(x)&nbsp;=&nbsp;-3x&nbsp;-&nbsp;8_</code> og <code>_h(x)&nbsp;=&nbsp;&nbsp;-x<sup>2</sup>&nbsp;+&nbsp;4x&nbsp;-&nbsp;5_</code>.
 * Løs likningen <code>_-3x&nbsp;-&nbsp;8&nbsp;=&nbsp;-x<sup>2</sup>&nbsp;+&nbsp;4x&nbsp;-&nbsp;5_</code>.
