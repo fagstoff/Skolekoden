@@ -1,12 +1,14 @@
 # Alternative algoritmer for å finne nullpunkt til en funksjon
 
-Det finnes mange ulike algoritmer for å finne nullpunkter til en funksjon, her er noen av dem. 
+Det finnes mange ulike algoritmer for å finne nullpunkter til en funksjon, her er noen av dem. Alle har sine styrker og svakheter.
 
 Felles for alle løsningene er at det er nyttig å ha noe kunnskap om skjæringssetningen, som kan formuleres slik: 
 
 > Dersom vi har en kontinuerlig funksjon _f_, og _f(a)_ og _f(b)_ har ulikt fortegn, så må det være et nullpunkt et sted mellom a og b.
 
 ## Brute force-metoden
+
+Dette er en metode som begynner på et sted og regner seg gjennom alle mulige verdier for f(x) i et intervall.
 
 1. Velg et startpunkt _x_ som du tror at ligger til venstre for nullpunktet.
 2. Velg et lite positivt tall _dx_ som du skal legge til _x_ for å gradvis forflytte deg bortover tallinja.
@@ -17,6 +19,8 @@ Felles for alle løsningene er at det er nyttig å ha noe kunnskap om skjærings
 7. Regn ut midtpunktet mellom de to siste x-verdiene du brukte. Dette er svaret ditt.
 
 ## Halveringsmetoden
+
+Metode som gjentagende fjerner halvparten av gjenstående område som ikke nullpunktet finnes i.
 
 1. Velg et tall _a_ som du tror at ligger til venstre for nullpunktet, og et tall _b_ som du tror at ligger til høyre for nullpunktet.
 2. Dersom <code>_a&nbsp;-&nbsp;b_</code> er et veldig lite tall, gå til punkt 9.
@@ -29,6 +33,8 @@ Felles for alle løsningene er at det er nyttig å ha noe kunnskap om skjærings
 9. Den siste x-verdien du regnet ut er svaret ditt.
 
 ## Newtons metode
+
+Metode som bruker tangenten i et punkt på funksjonen til å nærme seg et nullpunkt.
 
 1. Velg en verdi <code>_x<sub>n</sub>_</code> som startpunkt.
 2. Lag uttrykket <code>_h(x<sub>n</sub>) = f((x<sub>n</sub>)/f'((x<sub>n</sub>)_</code>.
