@@ -65,7 +65,7 @@ Demonstrer effekten av ulikt antall iterasjoner/toleranse når du gjennomgår l�
 
 ## 8. Oppsummering
 
-Avslutt opplegget med e oppsummering hvor du trekker linjene fra "Gjett tallet" og fram til den ferdige løsningen i Python. Utfordre elevene til å teste på andre funksjoner og oppgaver. Her er noen forslag:
+Avslutt opplegget med en oppsummering hvor du trekker linjene fra "Gjett tallet" og fram til den ferdige løsningen i Python. Utfordre elevene til å teste på andre funksjoner og oppgaver. Her er noen forslag:
 
 * <code>_g(x)&nbsp;=&nbsp;-3x&nbsp;-&nbsp;8_</code>
 * <code>_h(x)&nbsp;=&nbsp;-x<sup>2</sup>&nbsp;+&nbsp;4x&nbsp;-&nbsp;5_</code> (har ingen reelle nullpunkter)
