@@ -5,14 +5,13 @@ Koden er lisensiert under en GPLv3-lisens
 Se http://www.gnu.org/licenses/gpl-3.0.html 
 '''
 
-# Definerer funksjonen
+# Definerer funksjonen fra oppgaven
 def f(x):
-    '''Funksjonen som er gitt i oppgava.'''
     return (1/4)*x**3 - (3/4)*x**2 - x + 2
 
 # Den deriverte av funksjonen
 def df(x):
-    return (3/4)*x**2 - (6/4)*x -1
+    return (3/4)*x**2 - (3/2)*x - 1
 
 # Siste ledd i Newtons metode
 def h(x):
@@ -21,7 +20,7 @@ def h(x):
 x_0 = -3 # Startpunkt
 n = 5 # Antall iterasjoner
 
-x_liste = [x_0]
+x_liste = [x_0] # Liste der beregningene lagres
 
 # Løkke som kjører n iterasjoner av Newtons metode
 for i in range(n):
