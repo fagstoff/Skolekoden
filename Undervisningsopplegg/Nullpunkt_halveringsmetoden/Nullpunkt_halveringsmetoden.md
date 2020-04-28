@@ -49,7 +49,7 @@ Nå er det tid for fellesrefleksjon der gruppene muntlig presenterer sine funn. 
 
 ## 6. Implementering i Python
 
-Elevene fortsetter nå med å jobbe i grupper. Nå skal algoritmen implementeres i Python! Bruk god tid. Lærer går rundt og veileder. [Et løsningsforslag er gitt her](Nullpunkt_halveringsmetoden.py).
+Elevene fortsetter nå med å jobbe i grupper. Nå skal algoritmen implementeres i Python! Bruk god tid. Lærer går rundt og veileder. [Et løsningsforslag er gitt her](Nullpunkt_python_halveringsmetoden.py).
 
 Det er ikke nødvendig for elevene å ha Python installert på egne datamaskiner. Her er noen online-ressurser som kan brukes til denne oppgava:
 
@@ -73,7 +73,7 @@ Avslutt opplegget med en oppsummering hvor du trekker linjene fra "Gjett tallet"
 
 ## 9. Vurdering av kompetanse
 
-Med den kunnskapen og de ferdighetene elevene har hatt mulighet til å tilegne seg gjennom aktivitetene i dette undervisningsopplegget, bør de kunne finne nullpunkter til alle reelle funksjoner. De kan nå for eksempel vise kompetansen sin i nye og ukjente sammenhenger gjennom å bruke nullpunktsmetoden for å løse likninger eller finne skjæringspunktet til grafene for to funksjoner. 
+Med den kunnskapen og de ferdighetene elevene har hatt mulighet til å tilegne seg gjennom aktivitetene i dette undervisningsopplegget, bør de kunne finne nullpunkter til alle reelle funksjoner. De kan nå for eksempel vise kompetansen sin i nye og ukjente sammenhenger gjennom å bruke nullpunktsmetoden for å løse likninger eller finne skjæringspunktet til grafene for to funksjoner.
 
 Her er noen forslag til oppgaver som elevene kan jobbe med for å vise og videreutvikle kompetansen sin:
 
