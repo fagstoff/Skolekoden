@@ -1,13 +1,10 @@
 # Velkommen til skolekoden
 
-Dette er en fri og åpen ressurs med oppgaver og opplegg som kan være godt egnet til å jobbe med i realfagene.
+Dette er en fri og åpen ressurs med oppgaver og større undervisningsopplegg som kan være godt egnet til å jobbe med i realfagene. De er laget for videregående skole, men kan også passe på ungdomstrinnet.
 
-I fagfornyelsen har kjerneelementene fått en sentral og viktig plass. De nye læreplanene tydelige på at algoritmisk tenkning og programmering blir en viktig kompetanse i mange fag, spesielt i matematikk. Selv om ikke programmering eksplisitt er nevnt, så kan man jobbe med mange av kompetansemålene algoritmisk. Det betyr ikke nødvendigvis at man skal programmere, men det *kan* være en fin metode.
+I [fagfornyelsen](https://www.udir.no/laring-og-trivsel/lareplanverket/fagfornyelsen/nye-lareplaner-i-skolen/) har [kjerneelementene](https://www.udir.no/laring-og-trivsel/lareplanverket/fagovergripende-stotte/hva-er-kjerneelementer/) fått en sentral og viktig plass. De nye læreplanene tydelige på at algoritmisk tenkning og programmering blir en viktig kompetanse i mange fag, spesielt i matematikk. 
 
-I denne ressursbanken finnes det oppgaver og opplegg som kan passe godt til å jobbe med ulike kompetansemål på fag i videregående skole.
-
-En oversikt over oppgavene finner du i [oppgavemappa](https://github.com/fagstoff/Skolekoden/tree/master/Oppgaver).
-
+Vi forsøker å bruke [det nye læreplanverket](https://www.udir.no/laring-og-trivsel/lareplanverket/) aktivt når vi lager oppgaver og undervisningsopplegg, og jobber med å få inn kompetansemål, kompetansebegrepet, kjerneelementene, de grunnleggende ferdighetene, tverrfaglige temaer, formålet og verdigrunnlaget i oppgavene.
 
 ## Slik kan du bidra
 
