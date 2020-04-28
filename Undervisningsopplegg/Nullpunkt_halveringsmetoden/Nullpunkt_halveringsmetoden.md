@@ -80,6 +80,7 @@ Her er noen forslag til oppgaver som elevene kan jobbe med for å vise og videre
 * Finn skjæringspunktet til grafene for funksjonene <code>_g(x)&nbsp;=&nbsp;-3x&nbsp;-&nbsp;8_</code> og <code>_h(x)&nbsp;=&nbsp;&nbsp;-x<sup>2</sup>&nbsp;+&nbsp;4x&nbsp;-&nbsp;5_</code>.
 * Løs likningen <code>_-3x&nbsp;-&nbsp;8&nbsp;=&nbsp;-x<sup>2</sup>&nbsp;+&nbsp;4x&nbsp;-&nbsp;5_</code>.
 * Løs likningen <code>_cos(x)&nbsp;=&nbsp;x_</code>.
+* Gitt funksjonen <code>_f(x)&nbsp;=&nbsp;kx<sup>3</sup>&nbsp;+&nbsp;kx<sup>2</sup>&nbsp;+&nbsp;&frac34;kx&nbsp;+&nbsp;1_</code>. For hvilken verdi av _k_ er <code>_f(&frac34;)&nbsp;=&nbsp;0_</code>.
 
 ---
 
