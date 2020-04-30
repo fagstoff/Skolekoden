@@ -10,11 +10,11 @@ def f(x):
     return (1/4)*x**3 - (3/4)*x**2 - x + 2
 
 # --- Jobber først med en løsning som her fokus på antall iterasjoner
-iter = 7 # Antall iterasjoner som skal utføres
+it = 7 # Antall iterasjoner som skal utføres
 a = 1 # startpunkt på venstre side av nullpunktet
 b = 2 # startpunkt på høyre side av nullpunktet
 print('=== Starter beregning ===')
-for _ in range(iter):   # kjør iterasjonen et gitt antall ganger
+for _ in range(it):   # kjør iterasjonen et gitt antall ganger
     x = (a + b)/2       # velg x midt mellom a og b
     print('Nå er x=', x)
     if f(a)*f(x) > 0:   # hvis produktet er større enn null
