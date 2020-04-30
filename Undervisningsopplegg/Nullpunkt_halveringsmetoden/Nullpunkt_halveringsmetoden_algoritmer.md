@@ -4,7 +4,7 @@ Det finnes mange ulike algoritmer for å finne nullpunkter til en funksjon, her 
 
 Felles for alle løsningene er at det er nyttig å ha noe kunnskap om skjæringssetningen, som kan formuleres slik: 
 
-> Dersom vi har en kontinuerlig funksjon _f_, og _f(a)_ og _f(b)_ har ulikt fortegn, så må det være et nullpunkt et sted mellom a og b.
+> Dersom vi har en kontinuerlig funksjon _f_, og _f(a)_ og _f(b)_ har ulikt fortegn, så må det være et odde antall nullpunkter mellom a og b.
 
 ## Brute force-metoden
 
