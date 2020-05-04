@@ -14,9 +14,10 @@ it = 7 # Antall iterasjoner som skal utføres
 a = 1 # startpunkt på venstre side av nullpunktet
 b = 2 # startpunkt på høyre side av nullpunktet
 print('=== Starter beregning ===')
-for _ in range(it):   # kjør iterasjonen et gitt antall ganger
+for i in range(it):   # kjør iterasjonen et gitt antall ganger
     x = (a + b)/2       # velg x midt mellom a og b
-    print('Nå er x=', x)
+    print('Iterasjon', i)
+    print('Nå er x =', x)
     if f(a)*f(x) > 0:   # hvis produktet er større enn null
         a = x                # sett a til x-verdien
     else:               # ellers
