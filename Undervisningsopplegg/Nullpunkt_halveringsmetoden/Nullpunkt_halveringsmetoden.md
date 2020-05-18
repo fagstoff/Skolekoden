@@ -35,7 +35,7 @@ Som en oppsummering av denne delen skal elevene bli enige om den "beste" algorit
 ## 3. Vi ser på en graf
 
 Vi ser på grafen til <code>f(x)&nbsp;=&nbsp;&frac14;x<sup>3</sup>&nbsp;-&nbsp;&frac34;x<sup>2</sup>&nbsp;-&nbsp;x&nbsp;+&nbsp;2</code>.
-([bilde](Nullpunkt_halveringsmetoden.png)) på storskjerm. Snakk med elevene om hva som kan være en god strategi for å "gjette" seg inn mot nullpunktet. Sammenlign med leken i punkt 1. Vis hvordan første tilnærming i nullpunktsmetoden gjøres: velg to punkter som ligger på hver side av ett av nullpunktene, og velg så en x-verdi som ligger midt mellom disse to punktene. Hva gjør vi videre?
+([bilde](Nullpunkt_halveringsmetoden.png)) på storskjerm. Snakk med elevene om hva som kan være en god strategi for å "gjette" seg inn mot et av nullpunktene. Sammenlign med leken i punkt 1. Vis hvordan første tilnærming i nullpunktsmetoden gjøres: velg to punkter som ligger på hver side av ett av nullpunktene, og velg så en x-verdi som ligger midt mellom disse to punktene. Hva gjør vi videre?
 
 ## 4. Gruppearbeid: Elevene jobber med arbeidsarket
 
