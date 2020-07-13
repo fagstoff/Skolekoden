@@ -35,7 +35,7 @@ Som en oppsummering av denne delen skal elevene bli enige om den "beste" algorit
 ## 3. Vi ser på en graf
 
 Vi ser på grafen til <code>f(x)&nbsp;=&nbsp;&frac14;x<sup>3</sup>&nbsp;-&nbsp;&frac34;x<sup>2</sup>&nbsp;-&nbsp;x&nbsp;+&nbsp;2</code>.
-([bilde](Nullpunkt_halveringsmetoden.png)) på storskjerm. Snakk med elevene om hva som kan være en god strategi for å "gjette" seg inn mot nullpunktet. Sammenlign med leken i punkt 1. Vis hvordan første tilnærming i nullpunktsmetoden gjøres: velg to punkter som ligger på hver side av ett av nullpunktene, og velg så en x-verdi som ligger midt mellom disse to punktene. Hva gjør vi videre?
+([bilde](Nullpunkt_halveringsmetoden.png)) på storskjerm. Snakk med elevene om hva som kan være en god strategi for å "gjette" seg inn mot et av nullpunktene. Sammenlign med leken i punkt 1. Vis hvordan første tilnærming i nullpunktsmetoden gjøres: velg to punkter som ligger på hver side av ett av nullpunktene, og velg så en x-verdi som ligger midt mellom disse to punktene. Hva gjør vi videre?
 
 ## 4. Gruppearbeid: Elevene jobber med arbeidsarket
 
@@ -49,7 +49,7 @@ Nå er det tid for fellesrefleksjon der gruppene muntlig presenterer sine funn. 
 
 ## 6. Implementering i Python
 
-Elevene fortsetter nå med å jobbe i grupper. Nå skal algoritmen implementeres i Python! Bruk god tid. Lærer går rundt og veileder. [Et løsningsforslag er gitt her](Nullpunkt_halveringsmetoden.py).
+Elevene fortsetter nå med å jobbe i grupper. Nå skal algoritmen implementeres i Python! Bruk god tid. Lærer går rundt og veileder. [Et løsningsforslag er gitt her](Nullpunkt_python_halveringsmetoden.py).
 
 Det er ikke nødvendig for elevene å ha Python installert på egne datamaskiner. Her er noen online-ressurser som kan brukes til denne oppgava:
 
@@ -59,11 +59,13 @@ Det er ikke nødvendig for elevene å ha Python installert på egne datamaskiner
 
 ## 7. Fellesarbeid - Lærer og klassen reflekterer over resultatene
 
-Nå er det tid for fellesrefleksjon der gruppene muntlig presenterer sine funn. Læreren legger til rette for presentasjonene, og skriver ned en mulig løsning i Python. Dette er en fin anledning til å sammenlikne resultatene på arbeidsarket med programmet. Demonstrer ulikt antall iterasjoner/toleranse. Vi eksempler på når algoritmen feiler, for eksempel uheldige valg av startverdier for a og b.
+Nå er det tid for fellesrefleksjon der gruppene muntlig presenterer sine funn. Læreren legger til rette for presentasjonene, og skriver ned en mulig løsning i Python. Dette er en fin anledning til å sammenlikne resultatene på arbeidsarket med programmet. 
+
+Demonstrer effekten av ulikt antall iterasjoner/toleranse når du gjennomgår løsningsforslaget. Vis også eksempler på når algoritmen feiler, for eksempel uheldige valg av startverdier for a og b.
 
 ## 8. Oppsummering
 
-Oppsummering og test på andre funksjoner og oppgaver.
+Avslutt opplegget med en oppsummering hvor du trekker linjene fra "Gjett tallet" og fram til den ferdige løsningen i Python. Utfordre elevene til å teste på andre funksjoner og oppgaver. Her er noen forslag:
 
 * <code>_g(x)&nbsp;=&nbsp;-3x&nbsp;-&nbsp;8_</code>
 * <code>_h(x)&nbsp;=&nbsp;-x<sup>2</sup>&nbsp;+&nbsp;4x&nbsp;-&nbsp;5_</code> (har ingen reelle nullpunkter)
@@ -71,11 +73,14 @@ Oppsummering og test på andre funksjoner og oppgaver.
 
 ## 9. Vurdering av kompetanse
 
-Med den kunnskapen og de ferdighetene elevene har hatt mulighet til å tilegne seg gjennom aktivitetene i dette undervisningsopplegget, bør de kunne finne nullpunkter til alle reelle funksjoner. De kan nå for eksempel vise kompetansen sin i nye og ukjente sammenhenger gjennom å bruke nullpunktsmetoden for å løse likninger eller finne skjæringspunktet til grafene for to funksjoner. Her er noen forslag:
+Med den kunnskapen og de ferdighetene elevene har hatt mulighet til å tilegne seg gjennom aktivitetene i dette undervisningsopplegget, bør de kunne finne nullpunkter til alle reelle funksjoner. De kan nå for eksempel vise kompetansen sin i nye og ukjente sammenhenger gjennom å bruke nullpunktsmetoden for å løse likninger eller finne skjæringspunktet til grafene for to funksjoner.
+
+Her er noen forslag til oppgaver som elevene kan jobbe med for å vise og videreutvikle kompetansen sin:
 
 * Finn skjæringspunktet til grafene for funksjonene <code>_g(x)&nbsp;=&nbsp;-3x&nbsp;-&nbsp;8_</code> og <code>_h(x)&nbsp;=&nbsp;&nbsp;-x<sup>2</sup>&nbsp;+&nbsp;4x&nbsp;-&nbsp;5_</code>.
 * Løs likningen <code>_-3x&nbsp;-&nbsp;8&nbsp;=&nbsp;-x<sup>2</sup>&nbsp;+&nbsp;4x&nbsp;-&nbsp;5_</code>.
 * Løs likningen <code>_cos(x)&nbsp;=&nbsp;x_</code>.
+* Gitt funksjonen <code>_f(x)&nbsp;=&nbsp;kx<sup>3</sup>&nbsp;+&nbsp;kx<sup>2</sup>&nbsp;+&nbsp;&frac34;kx&nbsp;+&nbsp;1_</code>. For hvilken verdi av _k_ er <code>_f(&frac34;)&nbsp;=&nbsp;0_</code>.
 
 ---
 

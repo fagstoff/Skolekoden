@@ -12,6 +12,10 @@ Utgangspunktet er [læreplan for matematikk 1T](https://www.udir.no/lk20/mat09-0
 
 Undervisningsopplegget er knyttet til [kjerneelementene](https://www.udir.no/lk20/mat09-01/om-faget/kjerneelementer) "utforsking og problemløysing", "representasjon og kommunikasjon" og "resonnering og argumentasjon".
 
+I tillegg er undervisningsopplegget godt forankret i fagets relevans, som læreplanen beskriver slik:
+
+> Faget skal gi elevane høve til å utvikle problemløysingsstrategiar som førebur dei til vidare arbeid i andre fag som krev matematikk.
+
 [Kompetansebegrepet i det nye læreplanverket](https://www.udir.no/lk20/overordnet-del/prinsipper-for-laring-utvikling-og-danning/kompetanse-i-fagene/?kode=mat09-01&lang=nno) har vært sentralt i arbeidet med å utforme dette undervisningsopplegget, spesielt med hensyn på hvordan vi kan vurdere elevenes kompetanse.
 
 > Kompetanse er å kunne tileigne seg og nytte kunnskapar og ferdigheiter til å meistre utfordringar og løyse oppgåver i kjende og ukjende samanhengar og situasjonar. Kompetanse inneber forståing og evne til refleksjon og kritisk tenking.
