@@ -31,11 +31,11 @@ print(2**4)
 # at navnet i seg selv ikke har noen betydning.
 
 # Steg 4 - Lære å telle i en løkke
-for tall in range(1, 10): # Legg merke til at 10 er endepunkt for range() her
+for tall in range(1, 11): # OBS! Dette gir talla 1 til 10 (forklar!)
     print(tall)           
 
 # Steg 5 - Diskutere naturlige tall, og formattere output
-for x in range(1, 11): # Legg merke til at 11 er endepunkt for range() her
+for x in range(1, 11): 
     print(x, end=" ")
 print("...er naturlige tall (N)")
 
@@ -70,8 +70,22 @@ for x in range(0, 11):
     print(x**2, end=" ")
 print("...er kvadrattall")
 
-# Steg 11
+# Steg 11 - Summere tall
+minsum = 0
+for x in range(1, 11):
+    minsum = minsum + x
+    print("Legger til", x, "og da er summen", minsum)
+
+# Steg 12 - studerer summen av oddetall
+oddesum = 0
+for x in range(0, 11):
+    oddetall = 2*x + 1
+    oddesum = oddesum + oddetall
+    print("Legger til", oddetall, "og da er summen", oddesum)
+
+# Steg 13
 # Elevene lager sine egne favoritt-tallfølger
 
-# Steg 12 
+# Steg 14 
 # Elevene utfordrer medelever til å finne ut hvordan de laget tallfølgen
+
