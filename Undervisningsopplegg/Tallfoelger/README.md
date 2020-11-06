@@ -7,7 +7,7 @@
 eller https://trinket.io/python
 
 Vis bare ett steg til elevene av gangen, slik det er angitt i 
-koden, og gjennomfør gode diskusjoner i hvert enkelt steg. Bruk 
+[koden](intro-tall-foelger.py), og gjennomfør gode diskusjoner i hvert enkelt steg. Bruk 
 nødvendig tid til refleksjon.
 
 Det er viktig at matematikken har hovedfokus, og at Python bare er et
