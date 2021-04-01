@@ -1,0 +1,55 @@
+// PROLOGUE //
+
+Title: Meatballs
+By: Dan Meyer
+Questions: 80
+Skips: 20
+Tags: spaghetti, food, meatballs, volume, cylinder, sphere
+
+Standards:
+
+G-MG.1 - Apply geometric concepts in modeling situations. Use geometric shapes, their measures, and their properties to describe objects (e.g., modeling a tree trunk or a human torso as a cylinder).*
+
+MP.4 - Model with mathematics. Mathematically proficient students can apply the mathematics they know to solve problems arising in everyday life, society, and the workplace. In early grades, this might be as simple as writing an addition equation to describe a situation. In middle grades, a student might apply proportional reasoning to plan a school event or analyze a problem in the community. By high school, a student might use geometry to solve a design problem or use a function to describe how one quantity of interest depends on another. Mathematically proficient students who can apply what they know are comfortable making assumptions and approximations to simplify a complicated situation, realizing that these may need revision later. They are able to identify important quantities in a practical situation and map their relationships using such tools as diagrams, two-way tables, graphs, flowcharts and formulas. They can analyze those relationships mathematically to draw conclusions. They routinely interpret their mathematical results in the context of the situation and reflect on whether the results make sense, possibly improving the model if it has not served its purpose.
+
+Credits:
+
+
+License: CC-BY 3.0
+
+// ACT ONE //
+
+QUESTION - Will it overflow?
+
+QUESTION - How many meatballs will it take to overflow?
+
+QUESTION - What is a number of meatballs you know is too high?
+
+QUESTION - What is a number of meatballs you know is too low?
+
+// ACT TWO //
+
+QUESTION - What information would be useful to know here?
+
+IMAGE - The height remaining in the pot - empty-height.jpg
+IMAGE - The diameter of some sample meatballs - meatball-diameter.jpg
+IMAGE - The diameter of the pot - pot-diameter.jpg
+IMAGE - The number of meatballs - meatballs-number.jpg
+
+TEACHER NOTE - This is where you ought to teach them how to find the volume of cylinders and spheres, if they don't already know.
+
+// ACT THREE //
+
+VIDEO - The answer - meatballs-act3.mov
+FILE - Sample work - samplework.pdf
+
+// SEQUEL //
+
+QUESTION - The chef adds 50 meatballs to a different pot and it overflows. Determine possible dimensions for that pot and its sauce level.
+
+QUESTION - The math worked out to 33 meatballs but the answer was 36. What might account for the difference?
+
+QUESTION - The chef wants to combine all 36 meatballs into one meatball. How big will that meatball be? Will it still overflow?
+
+TEACHER NOTE - The difference might be on account of the "lip" of the cylindrical pot. The pot has more volume than we calculated because it isn't a true cylinder.
+
