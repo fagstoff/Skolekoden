@@ -1,0 +1,68 @@
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/jupyter_cache/executors/utils.py", line 51, in single_nb_execution
+    executenb(
+  File "/usr/local/lib/python3.9/site-packages/nbclient/client.py", line 1112, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+  File "/usr/local/lib/python3.9/site-packages/nbclient/util.py", line 74, in wrapped
+    return just_run(coro(*args, **kwargs))
+  File "/usr/local/lib/python3.9/site-packages/nbclient/util.py", line 53, in just_run
+    return loop.run_until_complete(coro)
+  File "/usr/local/Cellar/python@3.9/3.9.2_2/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.9/site-packages/nbclient/client.py", line 553, in async_execute
+    await self.async_execute_cell(
+  File "/usr/local/lib/python3.9/site-packages/nbclient/client.py", line 857, in async_execute_cell
+    self._check_raise_for_error(cell, exec_reply)
+  File "/usr/local/lib/python3.9/site-packages/nbclient/client.py", line 760, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+""" Rovdyr - Lotka/Volterra - rovdyr vs byttedyr """
+#
+# Lisens: Creative Commons BY-SA fuzzbin (Tom Jarle Christiansen) og bitjungle (Rune Mathisen) 2019
+#
+# Program simulerer hvordan populasjonen av rovdyr/byttedyr påvirkes over tid
+
+import matplotlib.pyplot as plt
+
+# Definerer initialbetingelser
+H_0 = 1000 # Harebestanden ved t = 0;
+t_0 = 0 # Starttiden i antall måneder
+dt = 1 # Skrittlengden
+k = 0.1 # Reproduksjonsraten
+
+# Initiering av lister
+t = [t_0] 
+H = [H_0]
+
+# Modellen
+def H_endring():
+    return k * H[-1]
+
+# Euler
+def neste_H():
+    return H[-1] + H_endring() * dt
+
+# Fyller lister med beregninger
+for i in range(0,100):
+    t.append(t[-1] + dt)
+    H.append(neste_H())
+
+plt.plot(t,H)
+plt.grid()
+plt.show()
+
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+[0;32m<ipython-input-1-0549c52e1881>[0m in [0;36m<module>[0;34m[0m
+[1;32m      5[0m [0;31m# Program simulerer hvordan populasjonen av rovdyr/byttedyr påvirkes over tid[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      6[0m [0;34m[0m[0m
+[0;32m----> 7[0;31m [0;32mimport[0m [0mmatplotlib[0m[0;34m.[0m[0mpyplot[0m [0;32mas[0m [0mplt[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m      8[0m [0;34m[0m[0m
+[1;32m      9[0m [0;31m# Definerer initialbetingelser[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mModuleNotFoundError[0m: No module named 'matplotlib'
+ModuleNotFoundError: No module named 'matplotlib'
+

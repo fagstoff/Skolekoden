@@ -1,0 +1,515 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Å finne nullpunkt med halveringsmetoden &#8212; Skolekoden</title>
+    
+  <link rel="stylesheet" href="../../../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="../../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../../../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../../../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../../_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/togglebutton.js"></script>
+    <script src="../../../_static/clipboard.min.js"></script>
+    <script src="../../../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../../../index.html">
+  
+  <img src="../../../_static/algo.png" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">Skolekoden</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="../../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../../docs/intro.html">
+   Velkommen til skolekoden
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Pythonressurser
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../../../docs/pythonressurser/pythonindex.html">
+   Grunnleggende programmering med Python
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../docs/pythonressurser/helloWorld.html">
+     Hallo verden!
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../docs/pythonressurser/variabler.html">
+     Variabler
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../docs/pythonressurser/kontrollstrukturer.html">
+     Kontrollstrukturer
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../docs/pythonressurser/funksjoner.html">
+     Funksjoner
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../docs/pythonressurser/moduler_og_biblioteker.html">
+     Moduler, pakker og biblioteker
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../docs/pythonressurser/tegne_grafer.html">
+     Tegne grafer
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../docs/pythonressurser/kodekommentarer.html">
+     Kodekommentarer og dokumentasjon
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../../../docs/pythonressurser/numeriskindex.html">
+   Numeriske metoder
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../docs/pythonressurser/derivasjon.html">
+     Derivasjon
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../docs/pythonressurser/integrasjon.html">
+     Integrasjon
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../docs/pythonressurser/euler.html">
+     Eulers metode
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../../../docs/pythonressurser/apiindex.html">
+   Datasett og API
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../docs/pythonressurser/api_request.html">
+     API - Programmeringsgrensesnitt
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Oppgaver
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../../../docs/oppgaver/oppgaveindex.html">
+   Sammensatte oppgaver
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../docs/oppgaver/stigespill.html">
+     Stigespillet
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../docs/oppgaver/game_of_life.html">
+     Conway’s Game of Life
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../../docs/oppgaver/kjottboller.html">
+     Kjøttboller
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Om skolekoden
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../../docs/CONTRIBUTING.html">
+   Slik kan du bidra
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../../docs/CODE_OF_CONDUCT.html">
+   Etiske retningslinjer
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../../_sources/_slettes/Undervisningsopplegg/Nullpunkt_halveringsmetoden/Nullpunkt_halveringsmetoden.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2F_slettes/Undervisningsopplegg/Nullpunkt_halveringsmetoden/Nullpunkt_halveringsmetoden.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                    title="Fullscreen mode"><i
+                        class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i>
+            Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#innhold-og-rekkefolge">
+   Innhold og rekkefølge
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#vi-leker-gjett-tallet">
+   1. Vi leker “Gjett tallet”
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#algoritmen-med-ord">
+   2. Algoritmen med ord
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#vi-ser-pa-en-graf">
+   3. Vi ser på en graf
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#gruppearbeid-elevene-jobber-med-arbeidsarket">
+   4. Gruppearbeid: Elevene jobber med arbeidsarket
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#fellesarbeid-laerer-og-klassen-reflekterer-over-resultatene">
+   5. Fellesarbeid - Lærer og klassen reflekterer over resultatene
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#implementering-i-python">
+   6. Implementering i Python
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id1">
+   7. Fellesarbeid - Lærer og klassen reflekterer over resultatene
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#oppsummering">
+   8. Oppsummering
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#vurdering-av-kompetanse">
+   9. Vurdering av kompetanse
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="a-finne-nullpunkt-med-halveringsmetoden">
+<h1>Å finne nullpunkt med halveringsmetoden<a class="headerlink" href="#a-finne-nullpunkt-med-halveringsmetoden" title="Permalink to this headline">¶</a></h1>
+<p>Dette er et undervisningsopplegg hvor elevene skal bruke algoritmisk tenking i utforskning og problemløsning i matematikk.</p>
+<div class="section" id="innhold-og-rekkefolge">
+<h2>Innhold og rekkefølge<a class="headerlink" href="#innhold-og-rekkefolge" title="Permalink to this headline">¶</a></h2>
+<p>Undervisningsopplegget gjennomføres i den rekkefølgen som er angitt nedenfor. Det skal ikke brukes noen hjelpemidler i punkt 1-5. Anbefalt tidsbruk er 3-4 timer.</p>
+<ol class="simple">
+<li><p>Vi leker “Gjett tallet”</p></li>
+<li><p>Algoritmen med ord</p></li>
+<li><p>Vi ser på grafen</p></li>
+<li><p>Gruppearbeid: Elevene jobber med arbeidsarket.</p></li>
+<li><p>Fellesarbeid - Lærer og klassen reflekterer over resultatene</p></li>
+<li><p>Implementering i Python</p></li>
+<li><p>Fellesarbeid - Lærer og klassen reflekterer over resultatene</p></li>
+<li><p>Oppsummering</p></li>
+<li><p>Vurdering av kompetanse</p></li>
+</ol>
+</div>
+<div class="section" id="vi-leker-gjett-tallet">
+<h2>1. Vi leker “Gjett tallet”<a class="headerlink" href="#vi-leker-gjett-tallet" title="Permalink to this headline">¶</a></h2>
+<p>“Gjett tallet” er en lek som de aller fleste kjenner. Det fine med denne leken er at mange bruker halvveringsmetoden for å komme fram til riktig tall med færrest mulig forsøk.</p>
+<p>Opplegget startes ved at lærer gjennomfører denne leken noen ganger sammen med klassen. Lærer kan for eksempel velge seg et tilfeldig tall mellom 1 og 20, og be elevene om å gjette tallet. Når elevene gjetter, skal læreren svare “for høyt”, “for lavt” eller eventuelt “riktig!”.</p>
+<p>Etter at læreren har gjennomført en runde, kan elevene jobbe 2 og 2 med den samme leken. Understrek for elevene at det er viktig at de bruker færrest mulig forsøk når de førsøker å finne tallet.</p>
+</div>
+<div class="section" id="algoritmen-med-ord">
+<h2>2. Algoritmen med ord<a class="headerlink" href="#algoritmen-med-ord" title="Permalink to this headline">¶</a></h2>
+<p>Når “Gjett tallet” er gjort noen ganger, gjennomføres en plenumsdiskusjon om hvilke strategier de valgte når de gjettet seg fram til tallet. Elevene skal formulere en <a class="reference external" href="https://snl.no/algoritme">algoritme</a> med ord. Introduser begrepet algoritme for elevene. SNL definerer det slik:</p>
+<blockquote>
+<div><p>“<em>…en fullstendig og nøyaktig beskrivelse av fremgangsmåten for løsning av en beregningsoppgave eller annen oppgave.</em>”</p>
+</div></blockquote>
+<p>Som en oppsummering av denne delen skal elevene bli enige om den “beste” algoritmen for å kommer frem til riktig tall (den som gir færrest gjettinger). Det finnes det <a class="reference internal" href="Nullpunkt_halveringsmetoden_algoritmer.html"><span class="doc std std-doc">flere mulige algoritmer for å komme fram til nullpunktet</span></a>.</p>
+</div>
+<div class="section" id="vi-ser-pa-en-graf">
+<h2>3. Vi ser på en graf<a class="headerlink" href="#vi-ser-pa-en-graf" title="Permalink to this headline">¶</a></h2>
+<p>Vi ser på grafen til <code>f(x) = ¼x<sup>3</sup> - ¾x<sup>2</sup> - x + 2</code>.
+(<span class="xref myst">bilde</span>) på storskjerm. Snakk med elevene om hva som kan være en god strategi for å “gjette” seg inn mot et av nullpunktene. Sammenlign med leken i punkt 1. Vis hvordan første tilnærming i nullpunktsmetoden gjøres: velg to punkter som ligger på hver side av ett av nullpunktene, og velg så en x-verdi som ligger midt mellom disse to punktene. Hva gjør vi videre?</p>
+</div>
+<div class="section" id="gruppearbeid-elevene-jobber-med-arbeidsarket">
+<h2>4. Gruppearbeid: Elevene jobber med arbeidsarket<a class="headerlink" href="#gruppearbeid-elevene-jobber-med-arbeidsarket" title="Permalink to this headline">¶</a></h2>
+<p>Del ut <span class="xref myst">arbeidsarket</span> (<span class="xref myst">docx</span>) og be elevene om å jobbe i grupper. De må formulere <a class="reference external" href="https://snl.no/algoritme">algoritmen</a> med ord, og de skal vise grafisk og med utregning hvordan man beregner nytt midtpunkt for fem gjentagelser. Introduser gjerne begrepet <a class="reference external" href="https://snl.no/iterasjon">iterasjon</a>.</p>
+<p>Du kan også laste ned et <span class="xref myst">løsningsforslag til arbeidsarket</span> (<span class="xref myst">docx</span>).</p>
+</div>
+<div class="section" id="fellesarbeid-laerer-og-klassen-reflekterer-over-resultatene">
+<h2>5. Fellesarbeid - Lærer og klassen reflekterer over resultatene<a class="headerlink" href="#fellesarbeid-laerer-og-klassen-reflekterer-over-resultatene" title="Permalink to this headline">¶</a></h2>
+<p>Nå er det tid for fellesrefleksjon der gruppene muntlig presenterer sine funn. Læreren legger til rette for dette, og skriver opp løsningsalgoritmen. Ord som <em>hvis</em> og <em>gjenta</em> og liknende bør utheves. Det bør også snakkes litt om begreper og at en algoritme er en trinnvis oppskrift. Utfordre elevene til å tenke over om andre ville forstått oppskriften (løsningsalgoritmen).</p>
+</div>
+<div class="section" id="implementering-i-python">
+<h2>6. Implementering i Python<a class="headerlink" href="#implementering-i-python" title="Permalink to this headline">¶</a></h2>
+<p>Elevene fortsetter nå med å jobbe i grupper. Nå skal algoritmen implementeres i Python! Bruk god tid. Lærer går rundt og veileder. <span class="xref myst">Et løsningsforslag er gitt her</span>.</p>
+<p>Det er ikke nødvendig for elevene å ha Python installert på egne datamaskiner. Her er noen online-ressurser som kan brukes til denne oppgava:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://repl.it/languages/python3">repl.it</a></p></li>
+<li><p><a class="reference external" href="https://trinket.io/python3">trinket.io</a></p></li>
+<li><p><a class="reference external" href="https://notebooks.azure.com/">Azure Notebooks</a></p></li>
+</ul>
+</div>
+<div class="section" id="id1">
+<h2>7. Fellesarbeid - Lærer og klassen reflekterer over resultatene<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p>Nå er det tid for fellesrefleksjon der gruppene muntlig presenterer sine funn. Læreren legger til rette for presentasjonene, og skriver ned en mulig løsning i Python. Dette er en fin anledning til å sammenlikne resultatene på arbeidsarket med programmet.</p>
+<p>Demonstrer effekten av ulikt antall iterasjoner/toleranse når du gjennomgår løsningsforslaget. Vis også eksempler på når algoritmen feiler, for eksempel uheldige valg av startverdier for a og b.</p>
+</div>
+<div class="section" id="oppsummering">
+<h2>8. Oppsummering<a class="headerlink" href="#oppsummering" title="Permalink to this headline">¶</a></h2>
+<p>Avslutt opplegget med en oppsummering hvor du trekker linjene fra “Gjett tallet” og fram til den ferdige løsningen i Python. Utfordre elevene til å teste på andre funksjoner og oppgaver. Her er noen forslag:</p>
+<ul class="simple">
+<li><p><code><em>g(x) = -3x - 8</em></code></p></li>
+<li><p><code><em>h(x) = -x<sup>2</sup> + 4x - 5</em></code> (har ingen reelle nullpunkter)</p></li>
+<li><p><code><em>k(x) = 2x - 2<sup>x</sup> + 2</em></code></p></li>
+</ul>
+</div>
+<div class="section" id="vurdering-av-kompetanse">
+<h2>9. Vurdering av kompetanse<a class="headerlink" href="#vurdering-av-kompetanse" title="Permalink to this headline">¶</a></h2>
+<p>Med den kunnskapen og de ferdighetene elevene har hatt mulighet til å tilegne seg gjennom aktivitetene i dette undervisningsopplegget, bør de kunne finne nullpunkter til alle reelle funksjoner. De kan nå for eksempel vise kompetansen sin i nye og ukjente sammenhenger gjennom å bruke nullpunktsmetoden for å løse likninger eller finne skjæringspunktet til grafene for to funksjoner.</p>
+<p>Her er noen forslag til oppgaver som elevene kan jobbe med for å vise og videreutvikle kompetansen sin:</p>
+<ul class="simple">
+<li><p>Finn skjæringspunktet til grafene for funksjonene <code><em>g(x) = -3x - 8</em></code> og <code><em>h(x) =  -x<sup>2</sup> + 4x - 5</em></code>.</p></li>
+<li><p>Løs likningen <code><em>-3x - 8 = -x<sup>2</sup> + 4x - 5</em></code>.</p></li>
+<li><p>Løs likningen <code><em>cos(x) = x</em></code>.</p></li>
+<li><p>Gitt funksjonen <code><em>f(x) = kx<sup>3</sup> + kx<sup>2</sup> + ¾kx + 1</em></code>. For hvilken verdi av <em>k</em> er <code><em>f(¾) = 0</em></code>.</p></li>
+</ul>
+<hr class="docutils" />
+<p><em>Dette undervisningsopplegget er laget av <a class="reference external" href="https://github.com/fuzzbin">fuzzbin</a> og <a class="reference external" href="https://github.com/bitjungle">bitjungle</a>. Oppgaven er lisensiert under en <a class="reference external" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Navngivelse-DelPåSammeVilkår 4.0 Internasjonal lisens.</a></em></p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./_slettes/Undervisningsopplegg/Nullpunkt_halveringsmetoden"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Bitjungle & Fuzzbin<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="../../../_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>

@@ -1,0 +1,503 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Optimalisering &#8212; Skolekoden</title>
+    
+  <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../index.html">
+  
+  <img src="../_static/algo.png" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">Skolekoden</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../docs/intro.html">
+   Velkommen til skolekoden
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Pythonressurser
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../docs/pythonressurser/pythonindex.html">
+   Grunnleggende programmering med Python
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../docs/pythonressurser/helloWorld.html">
+     Hallo verden!
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../docs/pythonressurser/variabler.html">
+     Variabler
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../docs/pythonressurser/kontrollstrukturer.html">
+     Kontrollstrukturer
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../docs/pythonressurser/funksjoner.html">
+     Funksjoner
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../docs/pythonressurser/moduler_og_biblioteker.html">
+     Moduler, pakker og biblioteker
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../docs/pythonressurser/tegne_grafer.html">
+     Tegne grafer
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../docs/pythonressurser/kodekommentarer.html">
+     Kodekommentarer og dokumentasjon
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../docs/pythonressurser/numeriskindex.html">
+   Numeriske metoder
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../docs/pythonressurser/derivasjon.html">
+     Derivasjon
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../docs/pythonressurser/integrasjon.html">
+     Integrasjon
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../docs/pythonressurser/euler.html">
+     Eulers metode
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../docs/pythonressurser/apiindex.html">
+   Datasett og API
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../docs/pythonressurser/api_request.html">
+     API - Programmeringsgrensesnitt
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Oppgaver
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="../docs/oppgaver/oppgaveindex.html">
+   Sammensatte oppgaver
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../docs/oppgaver/stigespill.html">
+     Stigespillet
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../docs/oppgaver/game_of_life.html">
+     Conway’s Game of Life
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../docs/oppgaver/kjottboller.html">
+     Kjøttboller
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Om skolekoden
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../docs/CONTRIBUTING.html">
+   Slik kan du bidra
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../docs/CODE_OF_CONDUCT.html">
+   Etiske retningslinjer
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/.brukes_ikke/optimalisering.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2F.brukes_ikke/optimalisering.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                    title="Fullscreen mode"><i
+                        class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/.brukes_ikke/optimalisering.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i>
+            Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#eksempel-inngjerding">
+   Eksempel - Inngjerding
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#oppgaver">
+   Oppgaver
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="optimalisering">
+<h1>Optimalisering<a class="headerlink" href="#optimalisering" title="Permalink to this headline">¶</a></h1>
+<p><strong>Creative Commons BY-SA : bitjungle (Rune Mathisen) og fuzzbin (Tom Jarle Christiansen)</strong></p>
+<hr/>
+<img alt="Opphavsmann: Mestigoit Lisens: Creative Commons BY-SA 3.0 Unported" title="Opphavsmann: Mestigoit Lisens: Creative Commons BY-SA 3.0 Unported" style="width: 400px; float: right; margin-left: 30px;" src="img/optimalisering.png">
+<p><strong>Begrepet “optimalisering” brukes ofte i forbindelse med matematisk modellering. Når vi sier at vi skal optimalisere noe i denne sammenhengen, mener vi at vi forsøker å finne den beste mulige løsningen under de betingelsene som er gitt for problemet vårt.</strong></p>
+<blockquote>
+<div><p>Denne siden dekker helt eller delvis kompetansemålene: <a class="reference external" href="https://github.com/fagstoff/ProgMod/blob/master/L%C3%A6replan/kompetansem%C3%A5l.md#modellering">Matematiske metoder 1</a></p>
+</div></blockquote>
+<p>For at vi skal kunne optimalisere en [prosess](<a class="reference external" href="https://en.wikipedia.org/wiki/Process_(engineering)">https://en.wikipedia.org/wiki/Process_(engineering)</a> eller et <a class="reference external" href="https://en.wikipedia.org/wiki/System#System_concepts">system</a>, må vi først ha en matematisk beskrivelse av prosessen eller systemet. Ofte er dette et sett av flere likninger med mange <a class="reference external" href="https://en.wikipedia.org/wiki/Parameter#Mathematical_models">parametre</a>. Når vi optimaliserer kan vi forsøke å endre parametrene innenfor gitte begrensninger, og forsøke å finne ut hvilken kombinasjon av parametre som gir det beste (“optimale”) resultatet.</p>
+<div class="section" id="eksempel-inngjerding">
+<h2>Eksempel - Inngjerding<a class="headerlink" href="#eksempel-inngjerding" title="Permalink to this headline">¶</a></h2>
+<img alt="Opphavsmann: Hans Jørn Storgaard Andersen Lisens: Creative Commons BY-SA 3.0 Unported" title="Opphavsmann: Hans Jørn Storgaard Andersen Lisens: Creative Commons BY-SA 3.0 Unported" style="width: 400px; float: right; margin-left: 30px;" src="img/Høns-2005.jpg">
+<p>Vi tenker oss at vi har 60 meter med nettinggjerde som vi skal bruke til å lage en hønsegård. Inngjerdingen skal være rektangelformet. Vi vil jo selvfølgelig at hønene skal ha det best mulig, og ønsker derfor å lage området de kan bruke størst mulig. Hvordan kan dette løses?</p>
+<p>Vi vet at et rektangel kan beskrives ved:</p>
+<p><strong>Areal:</strong> <span class="math notranslate nohighlight">\( A = l \cdot b \)</span></p>
+<p><strong>Omkrets:</strong> <span class="math notranslate nohighlight">\( O = 2l + 2b \)</span></p>
+<p>der <span class="math notranslate nohighlight">\(l\)</span> er lengden, og <span class="math notranslate nohighlight">\(b\)</span> er bredden på rektangelet.</p>
+<p>Vi har 60 meter med gjerde, så blir omkretsen <span class="math notranslate nohighlight">\( 60 = 2l + 2b \)</span>.</p>
+<p>Hvis vi kaller lengden for <span class="math notranslate nohighlight">\(x\)</span>, kan vi skrive omkretsen som <span class="math notranslate nohighlight">\( O = 2x + 2 \cdot (30 - x) \)</span> der <span class="math notranslate nohighlight">\(b = 30 - x\)</span>.</p>
+<p>Arealet av inngjerdingen blir da <span class="math notranslate nohighlight">\( A(x) = x \cdot (30 - x) = 30x - x^2\)</span> , der x er mellom 0 og 30.</p>
+<p>Vi plotter så funksjonen <span class="math notranslate nohighlight">\(A(x)\)</span>:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Importerer nødvendige biblioteker</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="k">def</span> <span class="nf">A</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">return</span> <span class="mi">30</span> <span class="o">*</span> <span class="n">x</span> <span class="o">-</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">y</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="c1"># Løkke som fyller tabell</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">31</span><span class="p">):</span>
+    <span class="n">x</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+    <span class="n">y</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">A</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
+    
+<span class="c1"># Utskrift av data</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span> <span class="c1"># Lager rutenett</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;$x$&#39;</span><span class="p">)</span> <span class="c1"># Merker x-aksen</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;$A(x)$&#39;</span><span class="p">)</span> <span class="c1"># Merker y-aksen</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="s1">&#39;bo-.&#39;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;$A(x)=30x - x^2$&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
+<span class="o">&lt;</span><span class="n">ipython</span><span class="o">-</span><span class="nb">input</span><span class="o">-</span><span class="mi">1</span><span class="o">-</span><span class="mi">44431</span><span class="n">d51bdb3</span><span class="o">&gt;</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1"># Importerer nødvendige biblioteker</span>
+<span class="ne">----&gt; </span><span class="mi">2</span> <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> 
+<span class="g g-Whitespace">      </span><span class="mi">5</span> <span class="k">def</span> <span class="nf">A</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+
+<span class="ne">ModuleNotFoundError</span>: No module named &#39;matplotlib&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<p>Vi kan se av grafen at arealet av rektangelet er størst når lengden <span class="math notranslate nohighlight">\(x\)</span> = 15m. Dette er jo toppunktet til funksjonen. Dette kan vi også finne ut ved å se på når den deriverte <span class="math notranslate nohighlight">\(A'(x) = 0\)</span>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">m</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+<span class="n">h</span> <span class="o">=</span> <span class="n">y</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="nb">max</span><span class="p">(</span><span class="n">y</span><span class="p">))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Det største arealet av rektangelet er: </span><span class="si">{}</span><span class="s2"> m^2&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">m</span><span class="p">))</span> <span class="c1"># Finner toppunktet til A(x)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Når arealet er størst er høyden </span><span class="si">{}</span><span class="s2"> meter.&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">h</span><span class="p">))</span> <span class="c1"># Finnver ved hvilken x-verdi dette er.</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Det største arealet av rektangelet er: 225 m^2
+Når arealet er størst er høyden 15 meter.
+</pre></div>
+</div>
+</div>
+</div>
+<p>Vi har nå funnet det optimale arealet ingjerdingen kan ha hvis vi har 60 meter med gjerde og skal lage en rektangulær hønsegård!</p>
+</div>
+<div class="section" id="oppgaver">
+<h2>Oppgaver<a class="headerlink" href="#oppgaver" title="Permalink to this headline">¶</a></h2>
+<ol class="simple">
+<li><p>En bedrift produserer og selger en vare. Kostnadene til bedriften er gitt ved <span class="math notranslate nohighlight">\(K(x) = 8.5x^2 + 25x + 11900\)</span>, hvor <span class="math notranslate nohighlight">\(x\)</span> er antall varer som produseres. Inntektene er gitt ved <span class="math notranslate nohighlight">\(I(x) = 790x\)</span>. Lag et program som finner ut den vareproduksjonen som gir høyest overskudd.</p></li>
+<li><p><a class="reference external" href="https://ndla.no/nb/node/104448?fag=57934">Et A4-ark kan brettes til en boks</a> ved å brette opp kantene som er igjen etter å ha klippet ut kvadrater med sidelengde x i hvert hjørne av arket. For hvilken x er volumet størst?</p></li>
+<li><p>Lag et program som finner arealet av det største rektangelet som kan innskrives i en rettvinklet trekant med sidene 3m, 4m og 5m. (Hint: Se på hypotenusen som en rett linje på formen <span class="math notranslate nohighlight">\(l=ax+b\)</span>)</p></li>
+</ol>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./.brukes_ikke"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Bitjungle & Fuzzbin<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="../_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>
