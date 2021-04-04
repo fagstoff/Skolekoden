@@ -1,9 +1,10 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moduler, pakker og biblioteker &#8212; Skolekoden</title>
     
   <link rel="stylesheet" href="../../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
@@ -24,8 +25,8 @@
     href="../../_static/vendor/lato_latin-ext/1.44.1/index.css">
 
     
-    <link rel="stylesheet" href="../../_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
@@ -39,14 +40,11 @@
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
-    <script src="../../_static/language_data.js"></script>
     <script src="../../_static/togglebutton.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../../_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -54,6 +52,8 @@
         const thebe_selector_output = ".output"
     </script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Tegne grafer" href="tegne_grafer.html" />
@@ -472,7 +472,7 @@ kvadratrot av |-4.67| er 2.1610182784974308
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Helt tilfeldig valgte jeg tallet 0.6152867220172478
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Helt tilfeldig valgte jeg tallet 0.9269213032124065
 </pre></div>
 </div>
 </div>
@@ -481,7 +481,7 @@ kvadratrot av |-4.67| er 2.1610182784974308
 </div>
 <div class="section" id="nyttige-biblioteker-fra-pypi">
 <h2>Nyttige biblioteker fra PyPI<a class="headerlink" href="#nyttige-biblioteker-fra-pypi" title="Permalink to this headline">¶</a></h2>
-<p>Biblioteket <a class="reference external" href="https://docs.scipy.org/doc/numpy/reference/index.html">numpy</a> inneholder mange funksjoner for behandling av <a class="reference external" href="https://en.wikipedia.org/wiki/Vector_space">vektorer</a> og [matriser](https://en.wikipedia.org/wiki/Matrix_(mathematics). Du kan også bruke funksjoner i numpy for å generere lister, slik som i dette eksemplet hvor vi genererer 10 tall mellom 0 og 4.:</p>
+<p>Biblioteket <a class="reference external" href="https://docs.scipy.org/doc/numpy/reference/index.html">numpy</a> inneholder mange funksjoner for behandling av <a class="reference external" href="https://en.wikipedia.org/wiki/Vector_space">vektorer</a> og [matriser](<a class="reference external" href="https://en.wikipedia.org/wiki/Matrix_(mathematics)">https://en.wikipedia.org/wiki/Matrix_(mathematics)</a>. Du kan også bruke funksjoner i numpy for å generere lister, slik som i dette eksemplet hvor vi genererer 10 tall mellom 0 og 4.:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -570,7 +570,7 @@ kvadratrot av |-4.67| er 2.1610182784974308
 <div class="section" id="oppgaver">
 <h2>Oppgaver<a class="headerlink" href="#oppgaver" title="Permalink to this headline">¶</a></h2>
 <ol class="simple">
-<li><p>Bruk modulen random, og lag et program som simulerer [Lotto](https://no.wikipedia.org/wiki/Lotto_(Norge)). Du skal trekke 7 tilfeldige heltall mellom 1 og 34, uten tilbakelegging.</p></li>
+<li><p>Bruk modulen random, og lag et program som simulerer [Lotto](<a class="reference external" href="https://no.wikipedia.org/wiki/Lotto_(Norge)">https://no.wikipedia.org/wiki/Lotto_(Norge)</a>). Du skal trekke 7 tilfeldige heltall mellom 1 og 34, uten tilbakelegging.</p></li>
 <li><p>Lag et program der brukeren kan taste inn a, b og c i funksjonen: <span class="math notranslate nohighlight">\( f(x)=ax^2+bx+c \)</span>. Programmet skal så skrive ut nullpunktene til funksjonen. Hint: Disse kan finnes ved hjelp av formelen: $<span class="math notranslate nohighlight">\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\)</span>$</p></li>
 <li><p>Lag et program der brukeren kan taste inn a, b og c i funksjonen: <span class="math notranslate nohighlight">\( f(x)=ax^2+bx+c \)</span>. Programmet skal så plotte funksjonsverdiene for <span class="math notranslate nohighlight">\( x \epsilon [0,10] \)</span> se også: <a class="reference external" href="https://github.com/fagstoff/ProgMod/blob/a8e819bc251175ce6cf81122326d24c20a8ee3b4/Fagstoff/enkel-graf.ipynb">Plotting i python</a></p></li>
 <li><p>Ekstrautfordring: Lag et program der brukeren kan taste inn amplitude og frekvens. Programmet skal så tegne den tilsvarende sinusfunksjonen for to hele perioder. Det skal være navn og verdi på aksene og rutenett som bakgrunn på plottet.</p></li>
