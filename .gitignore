@@ -1,9 +1,3 @@
-<<<<<<< Updated upstream
-_build/*
-.DS_Store
-=======
-
 .vscode
 .ipynb_checkpoints
 .DS_Store
->>>>>>> Stashed changes
