@@ -1,6 +1,6 @@
 # Velkommen til skolekoden
 
-Dette er en fri og åpen ressurs med oppgaver og større undervisningsopplegg beregnet for realfag. Ressursene har fokus på algoritmisk tenkning, problemløsing og programmering. Målgruppen er videregående skole, men innholdet kan også passe på ungdomstrinnet og for andre interesserte.
+Dette er en fri og åpen ressurs med oppgaver og større undervisningsopplegg beregnet for realfag. Ressursene har fokus på algoritmisk tenkning, problemløsing og programmering. Målgruppen er videregående skole, men innholdet kan også passe på ungdomstrinnet og for andre interesserte. Commit-test
 
 ## Innhold laget for fagfornyelsen
 [Det nye læreplanverket (LK20)](https://www.udir.no/laring-og-trivsel/lareplanverket/) brukes som utgangspunkt for alt av ressurser som publiseres på dette nettstedet. Vi håper at innholdet kan være en god ressurs for alle som måtte ha nytte av det. Oppgavene er forsøkt utformet på en måte som stimulerer til å jobbe problembasert og utforskende slik [kompetansebegrepet](https://www.udir.no/lk20/overordnet-del/prinsipper-for-laring-utvikling-og-danning/kompetanse-i-fagene/) er beskrevet i fagfornyelsen.
