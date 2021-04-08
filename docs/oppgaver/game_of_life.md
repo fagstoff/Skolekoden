@@ -2,7 +2,15 @@
 
 ## Oppgave
 
-The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970.[1] It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves. It is Turing complete and can simulate a universal constructor or any other Turing machine. (Må oversettes og lenkes) - Tekst fra Wikipedia (Skriv norsk intro her)
+Conway er kjent som oppfinner av spillet Game of Life (eller kort Life), som var en videreutvikling og forenkling av ideer fra John von Neumann. Spillet ble først publisert i 1970 i Scientific American innenfor Martin Gardners rubrik Mathematical Games. Spillet har det teoretiske potentiale av en Turing maskin, det vil si alt som kan beregnes algoritmisk kan også beregnes innenfor Game of Life. På grunn av Lifes analogier med vekst, nedgang og forandring tilhører den den økende klassen av såkalte simulation games. Spillet har fått avgjørende betydning for utviklingen av såkalte cellulære automater. (Fra [SNL](https://snl.no/John_Horton_Conway))
+
+Spillet går ut på at det er et eneste stort rutenett. Rutene kan være enten opplyste (levende) eller tomme (døde).
+
+Spillet er bygget på følgende regler:
+
+Hvis en levende rute berører en eller ingen andre levende ruter, dør den
+Hvis en eller flere døde ruter blir omringet av levende ruter, blir de omringede rutene levende
+Hvis en rute er i kontakt med flere enn tre ruter, dør ruta
 
 ## Ressurser
 
