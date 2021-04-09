@@ -31,6 +31,7 @@
       - file: docs/oppgaver/stigespill
       - file: docs/oppgaver/game_of_life
       - file: docs/oppgaver/kjottboller
+      - file: docs/oppgaver/vannbeholderen
 
 - part: Om skolekoden
   chapters:
