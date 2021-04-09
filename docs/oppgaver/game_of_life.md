@@ -10,9 +10,9 @@ Spillet går ut på at det er et eneste stort rutenett. Rutene kan være enten o
 
 Spillet er bygget på følgende regler:
 
-Hvis en levende rute berører en eller ingen andre levende ruter, dør den
-Hvis en eller flere døde ruter blir omringet av levende ruter, blir de omringede rutene levende
-Hvis en rute er i kontakt med flere enn tre ruter, dør ruta.
+* Hvis en levende rute berører en eller ingen andre levende ruter, dør den
+* Hvis en eller flere døde ruter blir omringet av levende ruter, blir de omringede rutene levende
+* Hvis en rute er i kontakt med flere enn tre ruter, dør ruta.
 
 **Oppgave:** Lag Game of Life.
 
