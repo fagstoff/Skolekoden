@@ -479,7 +479,7 @@ kvadratrot av |-4.67| er 2.1610182784974308
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Helt tilfeldig valgte jeg tallet 0.9480770733963112
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Helt tilfeldig valgte jeg tallet 0.8547001072773027
 </pre></div>
 </div>
 </div>
@@ -499,15 +499,8 @@ kvadratrot av |-4.67| er 2.1610182784974308
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
-<span class="o">&lt;</span><span class="n">ipython</span><span class="o">-</span><span class="nb">input</span><span class="o">-</span><span class="mi">6</span><span class="o">-</span><span class="n">bf1145e5f97b</span><span class="o">&gt;</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-<span class="ne">----&gt; </span><span class="mi">1</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="g g-Whitespace">      </span><span class="mi">2</span> 
-<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="n">minliste</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="n">num</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
-<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="nb">print</span><span class="p">(</span><span class="n">minliste</span><span class="p">)</span>
-
-<span class="ne">ModuleNotFoundError</span>: No module named &#39;numpy&#39;
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[0.         0.44444444 0.88888889 1.33333333 1.77777778 2.22222222
+ 2.66666667 3.11111111 3.55555556 4.        ]
 </pre></div>
 </div>
 </div>
@@ -520,6 +513,12 @@ kvadratrot av |-4.67| er 2.1610182784974308
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[ 0.          0.42995636  0.77637192  0.9719379   0.9786557   0.79522006
+  0.45727263  0.03047682 -0.40224065 -0.7568025 ]
+</pre></div>
+</div>
+</div>
 </div>
 <p>Vi vil ofte ha behov for å visualisere data. Da er biblioteket <a class="reference external" href="http://matplotlib.org/">Matplotlib</a> kjekt å bruke. Her skal vi bruke modulen <a class="reference external" href="https://matplotlib.org/users/pyplot_tutorial.html">pyplot</a> (som er en del av biblioteket Matplotlib) for å tegne en graf av tallene vi genererte ovenfor.</p>
 <div class="cell docutils container">
@@ -529,6 +528,9 @@ kvadratrot av |-4.67| er 2.1610182784974308
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../../_images/moduler_og_biblioteker_18_0.png" src="../../_images/moduler_og_biblioteker_18_0.png" />
 </div>
 </div>
 <p>Med biblioteket <a class="reference external" href="http://www.sympy.org">SymPy</a> kan du gjøre symbolske utregninger. Her er noen eksempler:</p>
@@ -553,6 +555,20 @@ kvadratrot av |-4.67| er 2.1610182784974308
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Ubestemt integral: int(2x + 2) = &quot;</span><span class="p">,</span> <span class="n">sympy</span><span class="o">.</span><span class="n">integrate</span><span class="p">(</span><span class="n">expr_3</span><span class="p">,</span> <span class="n">x</span><span class="p">))</span>
 <span class="c1"># - bestemt </span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Bestemt integral: int(2x + 2) x:[0, 2] = &quot;</span><span class="p">,</span> <span class="n">sympy</span><span class="o">.</span><span class="n">integrate</span><span class="p">(</span><span class="n">expr_3</span><span class="p">,</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">)))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
+<span class="o">&lt;</span><span class="n">ipython</span><span class="o">-</span><span class="nb">input</span><span class="o">-</span><span class="mi">9</span><span class="o">-</span><span class="n">c4ddf599ff76</span><span class="o">&gt;</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="ne">----&gt; </span><span class="mi">1</span> <span class="kn">import</span> <span class="nn">sympy</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> 
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Finne eksakt svar: sqr(8) = &quot;</span><span class="p">,</span> <span class="n">sympy</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">8</span><span class="p">))</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> 
+<span class="g g-Whitespace">      </span><span class="mi">5</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">sympy</span><span class="o">.</span><span class="n">symbols</span><span class="p">(</span><span class="s1">&#39;x y&#39;</span><span class="p">)</span>
+
+<span class="ne">ModuleNotFoundError</span>: No module named &#39;sympy&#39;
 </pre></div>
 </div>
 </div>

@@ -17,20 +17,37 @@ Traceback (most recent call last):
     raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
 nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
 ------------------
-import numpy as np
+import sympy
 
-minliste = np.linspace(0, 4, num=10)
-print(minliste)
+print("Finne eksakt svar: sqr(8) = ", sympy.sqrt(8))
+
+x, y = sympy.symbols('x y')
+expr_1 = x**2 + 2*x*y 
+print("Faktorisere: x^2 + 2xy = ", sympy.factor(expr_1))
+
+print("Løse likninger: x^2 + 2xy = 0 => ", sympy.solve(sympy.Eq(expr_1, 0), x))
+
+expr_2 = x**2 + 2*x - 3
+print("Derivere: d/dx (x^2 + 2*x - 3) = ", sympy.diff(expr_2, x))
+
+# Integrere
+expr_3 = 2*x + 2
+# - ubestemt 
+print("Ubestemt integral: int(2x + 2) = ", sympy.integrate(expr_3, x))
+# - bestemt 
+print("Bestemt integral: int(2x + 2) x:[0, 2] = ", sympy.integrate(expr_3, (x, 0, 2)))
+
 ------------------
 
 [0;31m---------------------------------------------------------------------------[0m
 [0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
-[0;32m<ipython-input-6-bf1145e5f97b>[0m in [0;36m<module>[0;34m[0m
-[0;32m----> 1[0;31m [0;32mimport[0m [0mnumpy[0m [0;32mas[0m [0mnp[0m[0;34m[0m[0;34m[0m[0m
+[0;32m<ipython-input-9-c4ddf599ff76>[0m in [0;36m<module>[0;34m[0m
+[0;32m----> 1[0;31m [0;32mimport[0m [0msympy[0m[0;34m[0m[0;34m[0m[0m
 [0m[1;32m      2[0m [0;34m[0m[0m
-[1;32m      3[0m [0mminliste[0m [0;34m=[0m [0mnp[0m[0;34m.[0m[0mlinspace[0m[0;34m([0m[0;36m0[0m[0;34m,[0m [0;36m4[0m[0;34m,[0m [0mnum[0m[0;34m=[0m[0;36m10[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[1;32m      4[0m [0mprint[0m[0;34m([0m[0mminliste[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      3[0m [0mprint[0m[0;34m([0m[0;34m"Finne eksakt svar: sqr(8) = "[0m[0;34m,[0m [0msympy[0m[0;34m.[0m[0msqrt[0m[0;34m([0m[0;36m8[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      4[0m [0;34m[0m[0m
+[1;32m      5[0m [0mx[0m[0;34m,[0m [0my[0m [0;34m=[0m [0msympy[0m[0;34m.[0m[0msymbols[0m[0;34m([0m[0;34m'x y'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
 
-[0;31mModuleNotFoundError[0m: No module named 'numpy'
-ModuleNotFoundError: No module named 'numpy'
+[0;31mModuleNotFoundError[0m: No module named 'sympy'
+ModuleNotFoundError: No module named 'sympy'
 
