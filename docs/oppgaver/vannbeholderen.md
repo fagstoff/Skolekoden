@@ -9,7 +9,7 @@ Nedenfor finner du en detaljert beskrivelse av hvordan en lærer kan gjennomfør
 [Videoen som viser noen sekunder av oppfylling av en beholder](https://mrmeyer.com/threeacts/watertank/act1/act1.mov), står klar på PC-en.
  *  "Nå skal vi ha en litt annerledes matematikktime."
     *  Legger litt føringer på det som skjer videre, ved å minne om at det er en matematikktime. 
- *  "Jeg vil at alle lukker igjen PC-en nå, og finner fram blyant og papir. Det er ikke en test eller prøve eller noe sånt, så slapp helt av. "
+ *  "Jeg vil at alle lukker igjen PC-en nå, og finner fram blyant og papir."
     *  Vil ha færrest mulig forstyrrende elementer, ønsker full fokus på videoen som skal vises.
  *  "Først skal jeg vise en veldig kort video. Se på dette."
     *  Starter videoen.
