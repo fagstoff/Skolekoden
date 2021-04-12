@@ -9,7 +9,7 @@ Nedenfor finner du en detaljert beskrivelse av hvordan en lærer kan gjennomfør
 [Videoen som viser noen sekunder av oppfylling av en beholder](https://mrmeyer.com/threeacts/watertank/act1/act1.mov), står klar på PC-en.
  *  "Nå skal vi ha en litt annerledes matematikktime."
     *  Legger litt føringer på det som skjer videre, ved å minne om at det er en matematikktime. 
- *  "Jeg vil at alle lukker igjen PC-en nå, og finner fram blyant og papir. Det er ikke en test eller prøve eller noe sånt, så slapp helt av. "
+ *  "Jeg vil at alle lukker igjen PC-en nå, og finner fram blyant og papir."
     *  Vil ha færrest mulig forstyrrende elementer, ønsker full fokus på videoen som skal vises.
  *  "Først skal jeg vise en veldig kort video. Se på dette."
     *  Starter videoen.
@@ -34,7 +34,7 @@ Nedenfor finner du en detaljert beskrivelse av hvordan en lærer kan gjennomfør
     *  Sidelengde: a=12,4 cm
     *  Bredde: S=29,9 cm
     *  Høyde: h=36,5 cm
-    *  Fylling av 0,47 liter (egen video) -> 8,46 sekunder
+    *  Fylling av 0,47 liter ([egen video](https://mrmeyer.com/threeacts/watertank/act2/act2.mov)) -> 8,46 sekunder
  *  Elevene jobber videre i små grupper.
  *  Denne delen av økta fortsetter helt til gruppene har kommet med forslag til svar.
  *  Jeg gir støtte underveis, men gir bare ut informasjon som elevene selv har kommet fram til at de trenger.
