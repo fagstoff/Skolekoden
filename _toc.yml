@@ -21,8 +21,8 @@
       - file: docs/pythonressurser/integrasjon
       - file: docs/pythonressurser/euler
   - file: docs/pythonressurser/apiindex
-    sections:
-      - file: docs/pythonressurser/api_request
+   # sections:
+   #   - file: docs/pythonressurser/api_request
 
 - part: Oppgaver
   chapters:
