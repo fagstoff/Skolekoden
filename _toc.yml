@@ -20,9 +20,10 @@
       - file: docs/pythonressurser/derivasjon
       - file: docs/pythonressurser/integrasjon
       - file: docs/pythonressurser/euler
-  - file: docs/pythonressurser/apiindex
-   # sections:
-   #   - file: docs/pythonressurser/api_request
+      - file: docs/pythonressurser/apitest
+      - file: docs/pythonressurser/apiindex
+    sections:
+      - file: docs/pythonressurser/apitest
 
 - part: Oppgaver
   chapters:
