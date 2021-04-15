@@ -1,6 +1,15 @@
 # Velkommen til skolekoden
 
-Dette er en fri og åpen ressurs med oppgaver og større undervisningsopplegg beregnet for realfag. Ressursene har fokus på algoritmisk tenkning, problemløsing og programmering. Målgruppen er lærere på videregående skole, men innholdet kan også passe på ungdomstrinnet og for andre interesserte.
+Dette er en fri og åpen ressurs med oppgaver og større undervisningsopplegg beregnet for realfag. Ressursene har fokus på algoritmisk tenkning, problemløsing og programmering. 
+
+## Målgruppe
+Målgruppa er lærere på videregående skole, men innholdet kan også passe for lærere på ungdomstrinnet og for andre interesserte.
+
+## Oppgaveformat
+Strukturen på oppgavene er [3-akter, inspirert av arbeidet til Dan Meyer](https://blog.mrmeyer.com/2013/teaching-with-three-act-tasks-act-one/). I 3-akters oppgaver får elevene først se et bilde eller en video som viser en interessant situasjon, og som innbyr til at seeren (eleven) stiller seg selv relaterte spørsmål. Dette er akt 1 i den didaktiske modellen. Problemstillingen er ikke gitt på forhånd, det er elevene selv som må formulere denne. I akt 2 må elevene samle inn all nødvendig informasjon, og forsøke å løse oppgavene de selv laget. I akt 3 avsløres svaret, og kanskje blir det kastet inn en "cliffhanger".
+
+## Programmeringsspråk
+I oppgavene på skolekoden legges det opp til å bruke programmeringsspråket Python. Det er valgt fordi det er forholdsvis enkelt å lære seg Python, og fordi det finnes store mengder ressurser på nettet som er godt egnet til bruk i realfag.
 
 ## Innhold laget for fagfornyelsen
 [Det nye læreplanverket (LK20)](https://www.udir.no/laring-og-trivsel/lareplanverket/) brukes som utgangspunkt for alt av ressurser som publiseres på dette nettstedet. Vi håper at innholdet kan være en god ressurs for alle som måtte ha nytte av det. Oppgavene er forsøkt utformet på en måte som stimulerer til å jobbe problembasert og utforskende slik [kompetansebegrepet](https://www.udir.no/lk20/overordnet-del/prinsipper-for-laring-utvikling-og-danning/kompetanse-i-fagene/) er beskrevet i fagfornyelsen.
