@@ -342,7 +342,7 @@
 <p>Som et generelt utgangspunkt for Eulers metode antar vi at vi har en ordinær differensiallikning på formen:</p>
 <div class="math notranslate nohighlight">
 \[ y' = f(x,y) \]</div>
-<p>I dette eksemplet tenker vi oss at vi har en funksjon <span class="math notranslate nohighlight">\(y\)</span> (som vi ikke vet hvordan ser ut) og differensiallikningen <span class="math notranslate nohighlight">\( y' = y \)</span> (som beskriver hvordan systemet endrer seg). Vi har i tillegg initialbetingelsen <span class="math notranslate nohighlight">\( y(0) = 1 \)</span>. Dette kan for eksempel være en beskrivelse av eksponentiell vekst i en bakteriekultur, hvor vi vet antall bakterier vi starter med ved tidspunktet <span class="math notranslate nohighlight">\( t = 0 \)</span>.</p>
+<p>I dette eksemplet tenker vi oss at vi har en funksjon <span class="math notranslate nohighlight">\(y\)</span> (som vi ikke vet hvordan ser ut) og differensiallikningen <span class="math notranslate nohighlight">\( y' = y \)</span> (som beskriver hvordan funksjonen endrer seg). Vi har i tillegg initialbetingelsen <span class="math notranslate nohighlight">\( y(0) = 1 \)</span>. Dette kan for eksempel være en beskrivelse av eksponentiell vekst i en bakteriekultur, hvor vi vet antall bakterier vi starter med ved tidspunktet <span class="math notranslate nohighlight">\( t = 0 \)</span>.</p>
 <p>Vi ønsker nå å bruke Eulers metode for å finne denne verdien numerisk. For å få til dette må vi starte et sted som vi vet noe om. I dette tilfellet bruker vi initialbetingelsen <span class="math notranslate nohighlight">\( y(0) = 1 \)</span>, og starter derifra. Vi må også bestemme oss for en <span class="math notranslate nohighlight">\( \Delta t \)</span> som er hvor store “skritt” vi skal ta mellom hver beregning.</p>
 <div style="border: solid thin; font-weight: bold; margin: 1em; padding: 1em;">
 Med Eulers metode kan vi simulere hvordan et system oppfører seg over tid, selv om vi ikke har en matematisk funksjon som beskriver systemet. Grunnprinsippet er at hver nye verdi beregnes med utgangspunkt i den forrige.</div>
@@ -359,44 +359,9 @@ Med Eulers metode kan vi simulere hvordan et system oppfører seg over tid, selv
 <p>Neste skritt er å øke <span class="math notranslate nohighlight">\(t\)</span> med <span class="math notranslate nohighlight">\(\Delta t\)</span> og regne ut en gang til. Vi lar <span class="math notranslate nohighlight">\(\Delta t = 1\)</span></p>
 <div class="math notranslate nohighlight">
 \[y(1) = y(0) + \Delta t \cdot y(0) = 1 + 1 \cdot 1 = 2\]</div>
-<p>Vi kan nå bruke dette resultatet til å regne ut neste verdi:
+<p>Vi kan nå bruke dette resultatet til å regne ut neste funksjonsverdi:
 $<span class="math notranslate nohighlight">\(y(2) = y(1) + \Delta t \cdot y(1) = 2 + 1 \cdot 2 = 4\)</span>$</p>
-<p>Slik kan vi fortsette helt til vi har regnet ut <span class="math notranslate nohighlight">\(y(5)\)</span> som i tabellen under.</p>
-<table class="colwidths-auto table">
-<thead>
-<tr class="row-odd"><th class="text-align:center head"><p><span class="math notranslate nohighlight">\(t\)</span></p></th>
-<th class="text-align:center head"><p><span class="math notranslate nohighlight">\(y\)</span></p></th>
-<th class="text-align:center head"><p><span class="math notranslate nohighlight">\(y'\)</span></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td class="text-align:center"><p>0</p></td>
-<td class="text-align:center"><p>1</p></td>
-<td class="text-align:center"><p>1</p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>1</p></td>
-<td class="text-align:center"><p>2</p></td>
-<td class="text-align:center"><p>2</p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>2</p></td>
-<td class="text-align:center"><p>4</p></td>
-<td class="text-align:center"><p>4</p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>3</p></td>
-<td class="text-align:center"><p>8</p></td>
-<td class="text-align:center"><p>8</p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>4</p></td>
-<td class="text-align:center"><p>16</p></td>
-<td class="text-align:center"><p>16</p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>5</p></td>
-<td class="text-align:center"><p>32</p></td>
-<td class="text-align:center"><p>32</p></td>
-</tr>
-</tbody>
-</table>
-<img alt="Opphavsmann: bitjungle Lisens: Creative Commons CC0" title="Opphavsmann: bitjungle Lisens: Creative Commons CC0" style="margin-left: 30px; width: 75%;" src="img/euler_illustrasjon_2.png">
+<p>Slik kan vi fortsette å regne ut nye funksjonsverdier så lenge vi ønsker.</p>
 <p>I dette eksemplet har vi ikke sagt noe om hvordan funksjonen <span class="math notranslate nohighlight">\(y\)</span> ser ut, og normalt kjenner vi heller ikke denne. I dette tilfellet vet vi det, og vi har at <span class="math notranslate nohighlight">\(y\)</span> er eksponentialfunksjon <span class="math notranslate nohighlight">\(e^x\)</span>. Siden vi her kjenner den virkelige funksjonen, kan vi sammenlikne våre numeriske tilnærminger med de virkelige verdiene. Vi kjenner også startverdien <span class="math notranslate nohighlight">\(y_0\)</span>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
