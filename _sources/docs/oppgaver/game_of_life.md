@@ -9,7 +9,7 @@ Eksempel på Game Of Life
 
 Spillet går ut på at det er et eneste stort rutenett. Rutene kan være enten opplyste (levende) eller tomme (døde).
 
-![Naboer](./img/naboer.png) { width: 200px }
+![Naboer](./img/naboer.png =300x)
 Alle celler spillet har ni naboceller.
 
 Spillet er bygget på følgende regler:
