@@ -6,15 +6,19 @@ Conway er kjent som oppfinner av spillet Game of Life (eller kort Life), som var
 
 ![Game of life](./img/Gospers_glider_gun.gif)
 
-Spillet går ut på at det er et eneste stort rutenett. Rutene kan være enten opplyste (levende) eller tomme (døde).
+Spillet går ut på at det er et eneste stort rutenett. Rutene kan være enten opplyste (levende) eller tomme (døde). Alle celler spillet har ni naboceller.
+
+![Naboer](./img/naboer.png)
 
 Spillet er bygget på følgende regler:
 
-* Hvis en levende rute berører en eller ingen andre levende ruter, dør den
-* Hvis en eller flere døde ruter blir omringet av levende ruter, blir de omringede rutene levende
-* Hvis en rute er i kontakt med flere enn tre ruter, dør ruta.
+    1. En levende celle med færre en to levende naboer dør av ensomhet.
+    2. En levende celle med to eller tre levende naboer overlever til neste generasjon.
+    3. En levende celle med fler enn tre naboer dør på grunn av overbefolkning.
+    4. En død celle med nøyaktig tre naboer blir levende som ved reproduksjon.
 
-**Oppgave:** Lag Game of Life.
+
+**Oppgave:** Lag Game of Life!
 
 ## Ressurser
 
