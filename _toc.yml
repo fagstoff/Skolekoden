@@ -21,7 +21,7 @@
       - file: docs/pythonressurser/integrasjon
       - file: docs/pythonressurser/euler
       - file: docs/pythonressurser/apitest
-      - file: docs/pythonressurser/apiindex
+  - file: docs/pythonressurser/apiindex
     sections:
       - file: docs/pythonressurser/apitest
 
