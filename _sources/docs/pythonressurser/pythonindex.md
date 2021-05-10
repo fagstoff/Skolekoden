@@ -8,4 +8,4 @@
 
 Kilde: [Wikipedia](https://no.wikipedia.org/wiki/Python)
 
-Denne modulen tar for seg grunnleggende programmering i python og fungerer som et introduksjonskurs.
+Denne modulen tar for seg grunnleggende programmering i python og fungerer som et introduksjonskurs. I kurset finnes det fagstoff, eksempler og små oppgaver på slutten av hvert tema.

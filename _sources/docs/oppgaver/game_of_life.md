@@ -19,14 +19,9 @@ Spillet er bygget på følgende regler:
     3. En levende celle med fler enn tre naboer dør på grunn av overbefolkning.
     4. En død celle med nøyaktig tre naboer blir levende som ved reproduksjon.
 
-
 **Oppgave:** Lag Game of Life!
 
-## Ressurser
-
-* Du trenger en kodeeditor og Python til denne oppgaven.
-
-
+Denne oppgaven kan være godt egnet for å løses sammen med andre.
 ---
 
 _Denne oppgaven er laget av [fuzzbin](https://github.com/fuzzbin) og [bitjungle](https://github.com/bitjungle). Oppgaven er lisensiert under en [Creative Commons Navngivelse-DelPåSammeVilkår 4.0 Internasjonal lisens.](http://creativecommons.org/licenses/by-sa/4.0/)_
