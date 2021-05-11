@@ -20,10 +20,6 @@
       - file: docs/pythonressurser/derivasjon
       - file: docs/pythonressurser/integrasjon
       - file: docs/pythonressurser/euler
-      - file: docs/pythonressurser/apitest
-  - file: docs/pythonressurser/apiindex
-    sections:
-      - file: docs/pythonressurser/apitest
 
 - part: Oppgaver
   chapters:
@@ -31,6 +27,9 @@
     sections:
       - file: docs/oppgaver/stigespill
       - file: docs/oppgaver/game_of_life
+      - file: docs/oppgaver/langtons_maur
+  - file: docs/oppgaver/treaktindex
+    sections:
       - file: docs/oppgaver/kjottboller
       - file: docs/oppgaver/vannbeholderen
 
